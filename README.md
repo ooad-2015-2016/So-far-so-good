@@ -14,6 +14,50 @@ Vrijeme je da se pojavite na radaru!
 JobRadar je jedinstveni servis koji kroz svoje funkcionalnosti omogucava poslodavcima da pronadu pravi profil ljudi a nezaposlenima jednostavan nacin da budu u toku sa potražnjom i aktuelnim konkursima.
 Na Vama je samo da kreirate profil, date nam potrebne informacije a zatim sacekate da Vas uz pomoc svoje “networking” magije spojimo s pravim ljudima!
 
+# Procesi
+
+**-Registracija korisnika (Sign up)**
+	Postoje dvije vrste korisnika: poslodavci i osobe koje traže posao.
+	U odnosnu na odabir prikazat će se određena forma za registraciju, te će korisnici unijeti svoje podatke.
+
+**-Prijava korisnika(Log in)**
+	Korisnik se prijavljuje na sistem i biva preusmjeren na početnu stranicu. Kompanije i korisnici će moći 
+	vidjeti obavijesti vezane za posao (konkurse, prijave na konkurse i sl.)
+
+**-Objavljivanje konkursa**
+	Poslodavci će moći objaviti konkurs za posao sa detaljnim specifikacijama (Lokacija, opis posla, stručna sprema,
+	iskustvo, datum isteka konkursa). Moguće je postaviti privatnost, da je konkurs vidljiv gostima i 
+	registrovanim korisnicima.
+
+**-Brisanje konkursa**
+	Prije isteka roka poslodavac može obrisati konkurs.
+
+**-Pregled konkursa**
+	Korisnici (osobe koje traže posao) mogu pretraživati konkurse na osnovu određenih kriterija.
+
+**-Prijava na konkurs**
+	Korisnici koji su zainteresovani za posao mogu se prijaviti na konkurs.
+
+**-Obavještenja i prikaz prijava**
+	Prilikom prijave korisnika na konkurs poslodavac će dobiti obavještenje. Poslodavac će također biti u mogućnosti
+	pregledati sve prijave sa kratkim detaljima o prijavljenim korisnicima.
+	Poslodavac može pozvati korisnika na interviju, prilikom poziva korisnik će dobiti obavijest.
+	Korisnik može postaviti nivo obavještenja, npr. ako neki konkurs bude objavljen u blizini korisnik će biti 
+	obaviješten putem notifikacija.
+
+**-Pregled profila**
+	Korisnici mogu pregledati profile poslodavaca. Poslodavci mogu pregledati profile korisnika koji u postavkama
+	ne odaberu opciju da im je profil sakriven. Poslodavci mogu pregledati profile svih prijavljenih na konkurs bez
+	obzira na postavke.
+
+**-Kontrola sistema**
+	Administrator sistema može pregledati korisničke podatke i brisati poslodavce i korisnike koji pokušaju
+	zloupotrijebiti sistem.
+	
+**-Brisanje profila**
+	Mogućnost brisanja profila poslodavaca i korisnika na zahtjev.
+
+
 #Funkcionalnosti:
 *Sign Up - Registrovanje nezaposlenih i poslodavaca (na formi za registrovanje bira se tip èlana)
 *Login - Zajednièki za sve èlanove (na osnovu korisnièkog imena odreðuje se tip korisnika)
