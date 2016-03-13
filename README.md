@@ -1,9 +1,18 @@
-# So-far-so-good
+﻿# So-far-so-good
  Članovi tima:
  1. Ervin Beus
  2. Lejla Džanko
  3. Jasmina Bajramović
  4. Ena Hajdarević
+
+JobRadar 
+
+Da li ste vec duže vremena nezaposleni i osjecate da prave prilike za Vas nema “ni na mapi”? Da li ste poslodavac i osjecate da Vaši oglasi za posao nikada ne nadu pravi ljudi?
+Vrijeme je da se pojavite na radaru!
+JobRadar je jedinstveni servis koji kroz svoje funkcionalnosti omogucava poslodavcima da pronadu pravi profil ljudi a nezaposlenima jednostavan nacin da budu u toku sa potražnjom i aktuelnim konkursima.
+Na Vama je samo da kreirate profil, date nam potrebne informacije a zatim sacekate da Vas uz pomoc svoje “networking” magije spojimo s pravim ljudima!
+
+
  
 ### Akteri
 
