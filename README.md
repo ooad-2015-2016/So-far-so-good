@@ -59,21 +59,21 @@ Na Vama je samo da kreirate profil, date nam potrebne informacije a zatim saceka
 
 
 #Funkcionalnosti:
-*Sign Up - Registrovanje nezaposlenih i poslodavaca (na formi za registrovanje bira se tip èlana)
-*Login - Zajednièki za sve èlanove (na osnovu korisnièkog imena odreðuje se tip korisnika)
-*Mogucnost objavljivanja konkursa (poslodavci)
-*Mogucnost pregleda prijavljenih na konkurs (poslodavci)
-*Mogucnost izmjene konkursa i statusa konkursa (poslodavci)
-*Mogucnost brisanja konkursa (poslodavci)
-*Mogucnost pregleda svih objavljenih konkursa i konkursa unutar struke nezaposlenog (nezaposleni)
-*Mogucnost prijave na konkurs (nezaposleni)
-*Mogucnost oznaèavanja konkursa kao favorit i pregleda favorita (nezaposleni)
-*Mogucnost izmjene podataka na profilu (nezaposleni i poslodavci)
-*Mogucnost pretrage (Search) konkursa (nezaposleni i poslodavci)
-*Mogucnost pregleda profila poslodavaca i nezaposlenih
-*Mogucnost brisanja profila (nezaposleni i poslodavci)
-*Obavještavanje poslodavaca ako postoje zainteresovani za konkurs
-*Obavještavanje nezaposlenih kada izaðu konkursi u njihovoj struci
+* Sign Up - Registrovanje nezaposlenih i poslodavaca (na formi za registrovanje bira se tip clana)
+* Login - Zajednicki za sve clanove (na osnovu korisnièkog imena odreðuje se tip korisnika)
+* Mogucnost objavljivanja konkursa (poslodavci)
+* Mogucnost pregleda prijavljenih na konkurs (poslodavci)
+* Mogucnost izmjene konkursa i statusa konkursa (poslodavci)
+* Mogucnost brisanja konkursa (poslodavci)
+* Mogucnost pregleda svih objavljenih konkursa i konkursa unutar struke nezaposlenog (nezaposleni)
+* Mogucnost prijave na konkurs (nezaposleni)
+* Mogucnost oznacavanja konkursa kao favorit i pregleda favorita (nezaposleni)
+* Mogucnost izmjene podataka na profilu (nezaposleni i poslodavci)
+* Mogucnost pretrage (Search) konkursa (nezaposleni i poslodavci)
+* Mogucnost pregleda profila poslodavaca i nezaposlenih
+* Mogucnost brisanja profila (nezaposleni i poslodavci)
+* Obavjestavanje poslodavaca ako postoje zainteresovani za konkurs
+* Obavjestavanje nezaposlenih kada izadju konkursi u njihovoj struci
 
  
 ### Akteri
