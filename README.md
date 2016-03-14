@@ -7,14 +7,14 @@
 
 JobRadar 
 
-#Opis teme
+##Opis teme
 
 Da li ste vec duže vremena nezaposleni i osjecate da prave prilike za Vas nema “ni na mapi”? Da li ste poslodavac i osjecate da Vaši oglasi za posao nikada ne nadu pravi ljudi?
 Vrijeme je da se pojavite na radaru!
 JobRadar je jedinstveni servis koji kroz svoje funkcionalnosti omogucava poslodavcima da pronadu pravi profil ljudi a nezaposlenima jednostavan nacin da budu u toku sa potražnjom i aktuelnim konkursima.
 Na Vama je samo da kreirate profil, date nam potrebne informacije a zatim sacekate da Vas uz pomoc svoje “networking” magije spojimo s pravim ljudima!
 
-# Procesi
+##Procesi
 
 **-Registracija korisnika (Sign up)**
 	Postoje dvije vrste korisnika: poslodavci i osobe koje traže posao.
@@ -58,7 +58,7 @@ Na Vama je samo da kreirate profil, date nam potrebne informacije a zatim saceka
 	Mogućnost brisanja profila poslodavaca i korisnika na zahtjev.
 
 
-#Funkcionalnosti:
+##Funkcionalnosti:
 * Sign Up - Registrovanje nezaposlenih i poslodavaca (na formi za registrovanje bira se tip clana)
 * Login - Zajednicki za sve clanove (na osnovu korisnièkog imena odreðuje se tip korisnika)
 * Mogucnost objavljivanja konkursa (poslodavci)
@@ -76,7 +76,7 @@ Na Vama je samo da kreirate profil, date nam potrebne informacije a zatim saceka
 * Obavjestavanje nezaposlenih kada izadju konkursi u njihovoj struci
 
  
-### Akteri
+##Akteri
 
 1. **Gost** - gost je osoba koja ima mogućnost da pregleda javne raspisane konkurse 
 2. **Registrovana osoba koja traži posao** - registrovana osoba koja traži posao je osoba koja ima mogućnost da pregleda svaki raspisani konkurs, bio on javni ili privatni, te da se i prijavi na željene konkurse
