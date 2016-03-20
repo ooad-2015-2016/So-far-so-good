@@ -14,31 +14,25 @@ Vrijeme je da se pojavite na radaru!
 JobRadar je jedinstveni servis koji kroz svoje funkcionalnosti omogucava poslodavcima da pronadu pravi profil ljudi a nezaposlenima jednostavan nacin da budu u toku sa potražnjom i aktuelnim konkursima.
 Na Vama je samo da kreirate profil, date nam potrebne informacije a zatim sacekate da Vas uz pomoc svoje “networking” magije spojimo s pravim ljudima!
 
-##Procesi
+## Procesi
 
 **-Registracija korisnika (Sign up)**
 	Postoje dvije vrste korisnika: poslodavci i osobe koje traže posao.
 	U odnosnu na odabir prikazat će se određena forma za registraciju, te će korisnici unijeti svoje podatke.
 
-**-Prijava korisnika(Log in)**
+**-Prijava korisnika (Log in)**
 	Korisnik se prijavljuje na sistem i biva preusmjeren na početnu stranicu. Kompanije i korisnici će moći 
 	vidjeti obavijesti vezane za posao (konkurse, prijave na konkurse i sl.)
 
-**-Objavljivanje konkursa**
-	Poslodavci će moći objaviti konkurs za posao sa detaljnim specifikacijama (Lokacija, opis posla, stručna sprema,
-	iskustvo, datum isteka konkursa). Moguće je postaviti privatnost, da je konkurs vidljiv gostima i 
+**-Menadžment konkursa**
+	Poslodavci će moći objaviti konkurs za posao sa detaljnim specifikacijama (lokacija, opis posla, stručna sprema,
+	isustvo, datum isteka konkursa). Moguće je postaviti privatnost, da je konkurs vidljiv gostima i 
 	registrovanim korisnicima.
-
-**-Brisanje konkursa**
 	Prije isteka roka poslodavac može obrisati konkurs.
-
-**-Pregled konkursa**
 	Korisnici (osobe koje traže posao) mogu pretraživati konkurse na osnovu određenih kriterija.
 
-**-Prijava na konkurs**
-	Korisnici koji su zainteresovani za posao mogu se prijaviti na konkurs.
-
 **-Obavještenja i prikaz prijava**
+	Korisnici koji su zainteresovani za posao mogu se prijaviti na konkurs.
 	Prilikom prijave korisnika na konkurs poslodavac će dobiti obavještenje. Poslodavac će također biti u mogućnosti
 	pregledati sve prijave sa kratkim detaljima o prijavljenim korisnicima.
 	Poslodavac može pozvati korisnika na interviju, prilikom poziva korisnik će dobiti obavijest.
@@ -50,10 +44,22 @@ Na Vama je samo da kreirate profil, date nam potrebne informacije a zatim saceka
 	ne odaberu opciju da im je profil sakriven. Poslodavci mogu pregledati profile svih prijavljenih na konkurs bez
 	obzira na postavke.
 
+**-Komunikacija**
+	Komunikacija između poslodavaca i korisnika putem poruka, maila, kamere i notifikacija.
+	Poslodavac može obaviti razgovor sa korisnikom preko našeg servisa putem poruka ili kamere.
+
+**-Oglašavanje**
+	Poslodavci mogu zakupiti oglasni prostor koji se odnosi na prikaz konkursa ili oglasni prostor za kompaniju.
+	Koristit će neki od servisa za plaćanje. (npr. Paypal)
+	Na stranici će se prikazivati i Google AdSense oglasi.
+	
+**-Statistika**
+	Prikaz statistike vezane za broj objavljenih oglasa, broj prijavljenih, broj dodijeljenih poslova itd.
+
 **-Kontrola sistema**
 	Administrator sistema može pregledati korisničke podatke i brisati poslodavce i korisnike koji pokušaju
 	zloupotrijebiti sistem.
-	
+
 **-Brisanje profila**
 	Mogućnost brisanja profila poslodavaca i korisnika na zahtjev.
 
