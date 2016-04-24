@@ -1,0 +1,19 @@
+Single responsibility principle (princip pojedinaène odgovornosti)
+
+Ovaj princip je u našem dijagramu klasa ispoštovan. Svaka klasa "zna" raditi samo jednu stvar. Tako poslodavac upravlja konkursima firme, osoba koja trazi posao upravlja svojim prijavama, klasa oglasavanje vodi racuna o svim konkursima koji su trenutno objavljeni. Klasa konkurs sluzi za opis konkursa. Isto vazi i za klasu lokacija.
+Nema funkcionalnosti koje bi se mogle odvojiti u posebne klase.
+
+Open Closed Principle
+U slucaju ovog principa razmatramo klasu Konkurs. Zakljueili smo da smo omoguaili nadogradnju i izmjenu liste konkursa bez izmjene osnovnog modula, tj. klase Konkurs. Na ovaj naein omoguaeno je da bez modifikacije podataka o konkursu možemo izvršiti njihovu nadogradnju i dodavanje i brisanje u listu.
+
+Liskov substitution principle
+Klasu Korisnik naslje?ujemo klasama Poslodavac i OsobaKojaTraziPsao te su one zamjenjive ovom baznom klasom zbog toga što je moguae iskoristiti sve atribute i metode iz bazne klase u izvedenim.
+
+Princip inverzije ovisnosti
+
+U našem dijagramu klasa zastupljena je jedna generalizacija vezana za klasu Korisnik. Ovo je apstraktna klasa i ona ne ovisi od klasa koje je nasljeðuju tj. od 
+modula nižeg nivoa. Klasa Korisnik je realizovana kao apstraktna, jer nema potrebe za instancama ove klase.Trebat æe nam konkretni objekti koji su tipa klasa naslijeðenih iz ove bazne.
+
+Princip izoliranja interfejsa
+
+Ovaj princip nije zadovoljen, jer unutar našeg dijagrama klasa nemamo interfejse.
