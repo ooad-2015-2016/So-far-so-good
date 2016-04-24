@@ -96,6 +96,7 @@
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
     <Compile Include="JobRadarBaza\Models\Konkurs.cs" />
+    <Compile Include="JobRadarBaza\Models\KonkursDbContext.cs" />
     <Compile Include="JobRadarBaza\Models\Korisnik.cs" />
     <Compile Include="JobRadarBaza\Models\OsobaKojaTraziPosao.cs" />
     <Compile Include="LokacijaBaza\Models\DefaultPodaci.cs" />

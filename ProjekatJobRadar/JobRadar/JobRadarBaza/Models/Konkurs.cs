@@ -4,10 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using JobRadar.LokacijaBaza.Models;
+using System.ComponentModel.DataAnnotations.Schema;
+
 namespace JobRadar.JobRadarBaza.Models
 {
     class Konkurs
     {
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         private int idKonkursa;
         private string NazivKonkursa;
         private DateTime datumObjave;
