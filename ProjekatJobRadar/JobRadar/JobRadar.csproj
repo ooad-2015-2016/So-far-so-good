@@ -99,6 +99,7 @@
     <Compile Include="JobRadarBaza\Models\JobRadarDBContext.cs" />
     <Compile Include="JobRadarBaza\Models\Konkurs.cs" />
     <Compile Include="JobRadarBaza\Models\Korisnik.cs" />
+    <Compile Include="JobRadarBaza\Models\Oglasavanje.cs" />
     <Compile Include="JobRadarBaza\Models\OsobaKojaTraziPosao.cs" />
     <Compile Include="JobRadarBaza\Models\DefaultPodaci.cs" />
     <Compile Include="JobRadarBaza\Models\Lokacija.cs" />

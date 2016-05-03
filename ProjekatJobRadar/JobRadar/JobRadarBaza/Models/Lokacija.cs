@@ -10,7 +10,7 @@ namespace JobRadar.JobRadarBaza.Models
     class Lokacija
     {
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int LokacijaId { get; set; }
+        private int LokacijaId { get; set; }
         public string fourSqaureId { get; set; }
         private string Kontinent { get; set; }
         private string Drzava { get; set; }

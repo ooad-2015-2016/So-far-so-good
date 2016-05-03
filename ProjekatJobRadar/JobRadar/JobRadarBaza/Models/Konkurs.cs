@@ -27,7 +27,12 @@ namespace JobRadar.JobRadarBaza.Models
 
         public Konkurs(string NazivKonkursa, DateTime datumObjave, DateTime datumIsteka, Lokacija lokacija, bool vidljiv)
         {
-
+            this.NazivKonkursa = NazivKonkursa;
+            this.datumObjave = datumObjave;
+            this.datumIsteka = datumIsteka;
+            this.lokacijaPosla = lokacija;
+            this.javnoVidljiv = vidljiv;
+            aktivan = true;
         } 
 
         public string getNaziv() { return NazivKonkursa; }

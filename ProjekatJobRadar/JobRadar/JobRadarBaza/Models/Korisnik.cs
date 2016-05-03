@@ -21,7 +21,7 @@ namespace JobRadar.JobRadarBaza.Models
         protected bool aktiviran { get; set; }
         protected bool zabranjenPristup { get; set; }
 
-        public Korisnik() { }
+        public Korisnik() { aktiviran = false; }
         public Korisnik(string userName, string email, string pwd, bool aktiviran = false)
         {
             userID = getUID();

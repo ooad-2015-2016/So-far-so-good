@@ -93,6 +93,20 @@ namespace JobRadarMigrations
                    ime = table.Column(type: "TEXT", nullable: true),
                    prezime = table.Column(type: "TEXT", nullable: true)
                });
+            migration.CreateTable(
+              name: "Oglasavanje",
+              columns: table => new
+              {
+                  ID = table.Column(type: "INTEGER", nullable: false),
+                  // .Annotation("Sqlite:Autoincrement", "true"),  
+                  poslodavac = table.Column(type: "TEXT", nullable: true),
+                  brojPregleda = table.Column(type: "INTEGER", nullable: false),
+                  oglasavanjeKompanije = table.Column(type: "INTEGER", nullable: false),
+                  konkurs = table.Column(type: "TEXT", nullable: true),
+                  datumAktiviranja = table.Column(type: "TEXT", nullable: false),
+                  datumIsteka = table.Column(type: "TEXT", nullable: false),
+                  istekao = table.Column(type: "INTEGER", nullable: false)
+              });
         }
 
         public override void Down(MigrationBuilder migration)
