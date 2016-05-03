@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
@@ -10,6 +11,7 @@ namespace JobRadar.JobRadarBaza.Models
     public abstract class Korisnik
     {
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        [Key]
         private int userID { get; set; }
         protected string userName { get; set; }
         protected string email { get; set; }
@@ -19,6 +21,7 @@ namespace JobRadar.JobRadarBaza.Models
         protected bool aktiviran { get; set; }
         protected bool zabranjenPristup { get; set; }
 
+        public Korisnik() { }
         public Korisnik(string userName, string email, string pwd, bool aktiviran = false)
         {
             userID = getUID();
