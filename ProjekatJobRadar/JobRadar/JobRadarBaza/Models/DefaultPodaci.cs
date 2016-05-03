@@ -4,15 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace JobRadar.LokacijaBaza.Models
+namespace JobRadar.JobRadarBaza.Models
 {
     class DefaultPodaci
     {
-        public static void Initialize(LokacijaDbContext context)
+        public static void Initialize(JobRadarDBContext context)
         {
-            if (!context.Lokacije.Any())
+            if (!context.Lokacija.Any())
             {
-                context.Lokacije.AddRange(
+                context.Lokacija.AddRange(
                     new Lokacija("Evropa", "BiH", "Sarajevo", "Trg Zlatnih Ljiljana", "71000"));
                 context.SaveChanges();
             }

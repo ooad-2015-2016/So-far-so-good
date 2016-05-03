@@ -1,4 +1,4 @@
-﻿using JobRadar.LokacijaBaza.Models;
+﻿using JobRadar.JobRadarBaza.Models;
 using Microsoft.Data.Entity;
 using System;
 using System.Collections.Generic;
@@ -32,11 +32,11 @@ namespace JobRadar
         {
             this.InitializeComponent();
             this.Suspending += OnSuspending;
-            using (var db = new LokacijaDbContext())
+/*            using (var db = new LokacijaDbContext())
             {
                 db.Database.ApplyMigrations();
                 DefaultPodaci.Initialize(db);
-            }
+            }*/
         }
 
         /// <summary>

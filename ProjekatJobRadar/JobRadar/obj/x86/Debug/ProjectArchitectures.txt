@@ -1,1 +1,1 @@
-C:\Users\Ervin\Desktop\ooadproj\ProjekatJobRadar\JobRadar\JobRadar.csproj;x86
+C:\Users\Ervin\Desktop\ooad\ProjekatJobRadar\JobRadar\JobRadar.csproj;x86

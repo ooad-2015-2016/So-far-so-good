@@ -9,16 +9,16 @@
     <SolutionConfiguration>Debug|ARM</SolutionConfiguration>
     <PackageArchitecture>arm</PackageArchitecture>
     <PackageIdentityName>c23362cc-b8bf-4f1b-aef1-839989c258cd</PackageIdentityName>
-    <IntermediateOutputPath>C:\Users\Ervin\Desktop\ooadproj\ProjekatJobRadar\JobRadar\obj\ARM\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Ervin\Desktop\ooad\ProjekatJobRadar\JobRadar\obj\ARM\Debug\</IntermediateOutputPath>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Ervin\Desktop\ooadproj\ProjekatJobRadar\JobRadar\bin\ARM\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Ervin\Desktop\ooad\ProjekatJobRadar\JobRadar\bin\ARM\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Ervin\Desktop\ooadproj\ProjekatJobRadar\JobRadar\bin\ARM\Debug\JobRadar.exe">
+    <AppxPackagedFile Include="C:\Users\Ervin\Desktop\ooad\ProjekatJobRadar\JobRadar\bin\ARM\Debug\JobRadar.exe">
       <PackagePath>entrypoint\JobRadar.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ervin\.nuget\packages\EntityFramework.Core\7.0.0-beta6\lib\dotnet\EntityFramework.Core.dll">
@@ -33,10 +33,10 @@
     <AppxPackagedFile Include="C:\Users\Ervin\.nuget\packages\Ix-Async\1.2.4\lib\portable-windows8+net45+wp8\System.Interactive.Async.dll">
       <PackagePath>System.Interactive.Async.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ervin\.nuget\packages\Microsoft.CodeAnalysis.Common\1.2.1\lib\portable-net45+win8\Microsoft.CodeAnalysis.dll">
+    <AppxPackagedFile Include="C:\Users\Ervin\.nuget\packages\Microsoft.CodeAnalysis.Common\1.0.0\lib\portable-net45+win8\Microsoft.CodeAnalysis.dll">
       <PackagePath>Microsoft.CodeAnalysis.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ervin\.nuget\packages\Microsoft.CodeAnalysis.CSharp\1.2.1\lib\portable-net45+win8\Microsoft.CodeAnalysis.CSharp.dll">
+    <AppxPackagedFile Include="C:\Users\Ervin\.nuget\packages\Microsoft.CodeAnalysis.CSharp\1.0.0\lib\portable-net45+win8\Microsoft.CodeAnalysis.CSharp.dll">
       <PackagePath>Microsoft.CodeAnalysis.CSharp.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ervin\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
@@ -279,7 +279,7 @@
     <AppxPackagedFile Include="C:\Users\Ervin\.nuget\packages\System.Reflection.Extensions\4.0.0\lib\netcore50\System.Reflection.Extensions.dll">
       <PackagePath>System.Reflection.Extensions.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ervin\.nuget\packages\System.Reflection.Metadata\1.2.0\lib\portable-net45+win8\System.Reflection.Metadata.dll">
+    <AppxPackagedFile Include="C:\Users\Ervin\.nuget\packages\System.Reflection.Metadata\1.0.22\lib\dotnet\System.Reflection.Metadata.dll">
       <PackagePath>System.Reflection.Metadata.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ervin\.nuget\packages\System.Reflection.Primitives\4.0.0\lib\netcore50\System.Reflection.Primitives.dll">
@@ -387,52 +387,52 @@
     <AppxPackagedFile Include="C:\Users\Ervin\.nuget\packages\System.Xml.XmlSerializer\4.0.10\lib\netcore50\System.Xml.XmlSerializer.dll">
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ervin\Desktop\ooadproj\ProjekatJobRadar\JobRadar\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\Ervin\Desktop\ooad\ProjekatJobRadar\JobRadar\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ervin\.nuget\packages\EntityFramework.Commands\7.0.0-beta6\lib\net45\EntityFramework.Commands.xml">
       <PackagePath>EntityFramework.Commands.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ervin\Desktop\ooadproj\ProjekatJobRadar\JobRadar\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Ervin\Desktop\ooad\ProjekatJobRadar\JobRadar\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ervin\Desktop\ooadproj\ProjekatJobRadar\JobRadar\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Ervin\Desktop\ooad\ProjekatJobRadar\JobRadar\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ervin\Desktop\ooadproj\ProjekatJobRadar\JobRadar\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Ervin\Desktop\ooad\ProjekatJobRadar\JobRadar\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ervin\Desktop\ooadproj\ProjekatJobRadar\JobRadar\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Ervin\Desktop\ooad\ProjekatJobRadar\JobRadar\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ervin\Desktop\ooadproj\ProjekatJobRadar\JobRadar\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\Ervin\Desktop\ooad\ProjekatJobRadar\JobRadar\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ervin\Desktop\ooadproj\ProjekatJobRadar\JobRadar\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\Ervin\Desktop\ooad\ProjekatJobRadar\JobRadar\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ervin\Desktop\ooadproj\ProjekatJobRadar\JobRadar\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Ervin\Desktop\ooad\ProjekatJobRadar\JobRadar\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ervin\.nuget\packages\EntityFramework.Commands\7.0.0-beta6\lib\net45\EntityFramework.Commands.dll">
       <PackagePath>EntityFramework.Commands.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ervin\Desktop\ooadproj\ProjekatJobRadar\JobRadar\bin\ARM\Debug\JobRadar.xr.xml">
+    <AppxPackagedFile Include="C:\Users\Ervin\Desktop\ooad\ProjekatJobRadar\JobRadar\bin\ARM\Debug\JobRadar.xr.xml">
       <PackagePath>JobRadar.xr.xml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ervin\Desktop\ooadproj\ProjekatJobRadar\JobRadar\bin\ARM\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Ervin\Desktop\ooad\ProjekatJobRadar\JobRadar\bin\ARM\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ervin\Desktop\ooadproj\ProjekatJobRadar\JobRadar\bin\ARM\Debug\Core\JobRadar.exe">
+    <AppxPackagedFile Include="C:\Users\Ervin\Desktop\ooad\ProjekatJobRadar\JobRadar\bin\ARM\Debug\Core\JobRadar.exe">
       <PackagePath>JobRadar.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

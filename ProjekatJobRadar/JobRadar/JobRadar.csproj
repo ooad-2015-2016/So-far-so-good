@@ -95,18 +95,17 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="JobRadarBaza\Models\JobRadarDBContext.cs" />
     <Compile Include="JobRadarBaza\Models\Konkurs.cs" />
-    <Compile Include="JobRadarBaza\Models\KonkursDbContext.cs" />
     <Compile Include="JobRadarBaza\Models\Korisnik.cs" />
     <Compile Include="JobRadarBaza\Models\OsobaKojaTraziPosao.cs" />
-    <Compile Include="LokacijaBaza\Models\DefaultPodaci.cs" />
-    <Compile Include="LokacijaBaza\Models\Lokacija.cs" />
-    <Compile Include="LokacijaBaza\Models\LokacijaDbContext.cs" />
-    <Compile Include="Migrations\20160424145751_InitialMigration.cs" />
-    <Compile Include="Migrations\20160424145751_InitialMigration.designer.cs">
-      <DependentUpon>20160424145751_InitialMigration.cs</DependentUpon>
+    <Compile Include="JobRadarBaza\Models\DefaultPodaci.cs" />
+    <Compile Include="JobRadarBaza\Models\Lokacija.cs" />
+    <Compile Include="Migrations\20160503124309_InitialMigration.cs" />
+    <Compile Include="Migrations\20160503124309_InitialMigration.designer.cs">
+      <DependentUpon>20160503124309_InitialMigration.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\LokacijaDbContextModelSnapshot.cs" />
+    <Compile Include="Migrations\JobRadarDBContextModelSnapshot.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -132,13 +131,16 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
-    <Page Include="LokacijaBaza\Views\MainPage.xaml">
+    <Folder Include="JobRadarBaza\Views\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="MainPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="JobRadarBaza\Views\" />
+    <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
