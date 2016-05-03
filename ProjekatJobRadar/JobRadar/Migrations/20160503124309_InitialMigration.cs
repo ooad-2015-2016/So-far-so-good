@@ -14,7 +14,7 @@ namespace JobRadarMigrations
                 columns: table => new
                 {
                     ID = table.Column(type: "INTEGER", nullable: false),
-                        //.Annotation("Sqlite:Autoincrement","true"),
+                    //.Annotation("Sqlite:Autoincrement","true"),
                     LokacijaId = table.Column(type: "INTEGER", nullable: false)
                 },
                 constraints: table =>
@@ -26,7 +26,7 @@ namespace JobRadarMigrations
                 columns: table => new
                 {
                     LokacijaId = table.Column(type: "INTEGER", nullable: false),
-                        //.Annotation("Sqlite:Autoincrement", "true"),
+                    //.Annotation("Sqlite:Autoincrement", "true"),
                     Adresa = table.Column(type: "TEXT", nullable: true),
                     Drzava = table.Column(type: "TEXT", nullable: true),
                     Grad = table.Column(type: "TEXT", nullable: true),
@@ -52,8 +52,8 @@ namespace JobRadarMigrations
                     zabranjenPristup = table.Column(type: "INTEGER", nullable: false),
                     ime = table.Column(type: "TEXT", nullable: true),
                     prezime = table.Column(type: "TEXT", nullable: true),
-                    datumRodjenja = table.Column(type: "TEXT", nullable: false),                   
-                    godinaZavrsetkaObrazovanja = table.Column(type: "TEXT", nullable: false),                                     
+                    datumRodjenja = table.Column(type: "TEXT", nullable: false),
+                    godinaZavrsetkaObrazovanja = table.Column(type: "TEXT", nullable: false),
                     zaposlen = table.Column(type: "INTEGER", nullable: false)
                 },
                 constraints: table =>
@@ -78,6 +78,21 @@ namespace JobRadarMigrations
                     //fali lista konkursa, nisam sigurna za ovo
                 }
                     );
+            migration.CreateTable(
+               name: "Administrator",
+               columns: table => new
+               {
+                   ID = table.Column(type: "INTEGER", nullable: false),
+                   // .Annotation("Sqlite:Autoincrement", "true"),     
+                   userName = table.Column(type: "TEXT", nullable: true),
+                   email = table.Column(type: "TEXT", nullable: true),
+                   datumRegistracije = table.Column(type: "TEXT", nullable: false),
+                   posljednjaAktivnost = table.Column(type: "TEXT", nullable: false),
+                   aktiviran = table.Column(type: "INTEGER", nullable: false),
+                   zabranjenPristup = table.Column(type: "INTEGER", nullable: false),
+                   ime = table.Column(type: "TEXT", nullable: true),
+                   prezime = table.Column(type: "TEXT", nullable: true)
+               });
         }
 
         public override void Down(MigrationBuilder migration)
@@ -86,6 +101,7 @@ namespace JobRadarMigrations
             migration.DropTable("Lokacija");
             migration.DropTable("OsobaKojaTraziPosao");
             migration.DropTable("Poslodavac");
+            migration.DropTable("Administrator");
         }
     }
 }

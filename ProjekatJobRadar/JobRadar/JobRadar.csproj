@@ -95,6 +95,7 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="JobRadarBaza\Models\Administrator.cs" />
     <Compile Include="JobRadarBaza\Models\JobRadarDBContext.cs" />
     <Compile Include="JobRadarBaza\Models\Konkurs.cs" />
     <Compile Include="JobRadarBaza\Models\Korisnik.cs" />
