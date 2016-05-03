@@ -13,8 +13,8 @@ namespace JobRadarMigrations
                 name: "Konkurs",
                 columns: table => new
                 {
-                    ID = table.Column(type: "INTEGER", nullable: false)
-                        .Annotation("Sqlite:Autoincrement","true"),
+                    ID = table.Column(type: "INTEGER", nullable: false),
+                        //.Annotation("Sqlite:Autoincrement","true"),
                     LokacijaId = table.Column(type: "INTEGER", nullable: false)
                 },
                 constraints: table =>
@@ -25,8 +25,8 @@ namespace JobRadarMigrations
                 name: "Lokacija",
                 columns: table => new
                 {
-                    LokacijaId = table.Column(type: "INTEGER", nullable: false)
-                        .Annotation("Sqlite:Autoincrement", "true"),
+                    LokacijaId = table.Column(type: "INTEGER", nullable: false),
+                        //.Annotation("Sqlite:Autoincrement", "true"),
                     Adresa = table.Column(type: "TEXT", nullable: true),
                     Drzava = table.Column(type: "TEXT", nullable: true),
                     Grad = table.Column(type: "TEXT", nullable: true),
@@ -42,8 +42,8 @@ namespace JobRadarMigrations
                 name: "OsobaKojaTraziPosao",
                 columns: table => new
                 {
-                    ID = table.Column(type: "INTEGER", nullable: false)
-                        .Annotation("Sqlite:Autoincrement", "true"),                //https://github.com/aspnet/EntityFramework/issues/2545
+                    ID = table.Column(type: "INTEGER", nullable: false),
+                       // .Annotation("Sqlite:Autoincrement", "true"),                //https://github.com/aspnet/EntityFramework/issues/2545
                     aktiviran = table.Column(type: "INTEGER", nullable: false),
                     datumRegistracije = table.Column(type: "TEXT", nullable: false),
                     datumRodjenja = table.Column(type: "TEXT", nullable: false),

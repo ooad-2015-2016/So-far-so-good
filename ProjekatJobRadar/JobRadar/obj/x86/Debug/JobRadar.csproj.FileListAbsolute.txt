@@ -213,11 +213,6 @@ C:\Users\HP\Desktop\GIT\gitMapa\ProjekatJobRadar\JobRadar\obj\x86\Debug\qualifie
 C:\Users\HP\Desktop\GIT\gitMapa\ProjekatJobRadar\JobRadar\obj\x86\Debug\qualifiers.txt.intermediate
 C:\Users\HP\Desktop\GIT\gitMapa\ProjekatJobRadar\JobRadar\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\HP\Desktop\GIT\gitMapa\ProjekatJobRadar\JobRadar\obj\x86\Debug\ProjectArchitectures.txt
-C:\Users\HP\Desktop\GIT\gitMapa\ProjekatJobRadar\JobRadar\bin\x86\Debug\LokacijaBaza\Views\MainPage.xbf
-C:\Users\HP\Desktop\GIT\gitMapa\ProjekatJobRadar\JobRadar\obj\x86\Debug\LokacijaBaza\Views\MainPage.g.i.cs
-C:\Users\HP\Desktop\GIT\gitMapa\ProjekatJobRadar\JobRadar\obj\x86\Debug\LokacijaBaza\Views\MainPage.g.cs
-C:\Users\HP\Desktop\GIT\gitMapa\ProjekatJobRadar\JobRadar\obj\x86\Debug\LokacijaBaza\Views\MainPage.xaml
-C:\Users\HP\Desktop\GIT\gitMapa\ProjekatJobRadar\JobRadar\obj\x86\Debug\LokacijaBaza\Views\MainPage.xbf
 C:\Users\Ervin\Desktop\ooadproj\ProjekatJobRadar\JobRadar\bin\x86\Debug\EntityFramework.Commands.dll
 C:\Users\Ervin\Desktop\ooadproj\ProjekatJobRadar\JobRadar\bin\x86\Debug\EntityFramework.Commands.xml
 C:\Users\Ervin\Desktop\ooadproj\ProjekatJobRadar\JobRadar\bin\x86\Debug\App.xbf
@@ -658,3 +653,8 @@ C:\Users\Ervin\Desktop\ooad\ProjekatJobRadar\JobRadar\obj\x86\Debug\qualifiers.t
 C:\Users\Ervin\Desktop\ooad\ProjekatJobRadar\JobRadar\obj\x86\Debug\qualifiers.txt.intermediate
 C:\Users\Ervin\Desktop\ooad\ProjekatJobRadar\JobRadar\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\Ervin\Desktop\ooad\ProjekatJobRadar\JobRadar\obj\x86\Debug\ProjectArchitectures.txt
+C:\Users\HP\Desktop\GIT\GITmapa\ProjekatJobRadar\JobRadar\bin\x86\Debug\MainPage.xbf
+C:\Users\HP\Desktop\GIT\GITmapa\ProjekatJobRadar\JobRadar\obj\x86\Debug\MainPage.g.i.cs
+C:\Users\HP\Desktop\GIT\GITmapa\ProjekatJobRadar\JobRadar\obj\x86\Debug\MainPage.g.cs
+C:\Users\HP\Desktop\GIT\GITmapa\ProjekatJobRadar\JobRadar\obj\x86\Debug\MainPage.xaml
+C:\Users\HP\Desktop\GIT\GITmapa\ProjekatJobRadar\JobRadar\obj\x86\Debug\MainPage.xbf
