@@ -1,0 +1,13 @@
+c:\Users\Dell\documents\visual studio 2015\Projects\Konkurs\KonkursAdmin\bin\Debug\KonkursAdmin.exe.config
+c:\Users\Dell\documents\visual studio 2015\Projects\Konkurs\KonkursAdmin\bin\Debug\KonkursAdmin.exe
+c:\Users\Dell\documents\visual studio 2015\Projects\Konkurs\KonkursAdmin\bin\Debug\KonkursAdmin.pdb
+c:\Users\Dell\documents\visual studio 2015\Projects\Konkurs\KonkursAdmin\obj\Debug\MainWindow.g.cs
+c:\Users\Dell\documents\visual studio 2015\Projects\Konkurs\KonkursAdmin\obj\Debug\App.g.cs
+c:\Users\Dell\documents\visual studio 2015\Projects\Konkurs\KonkursAdmin\obj\Debug\KonkursAdmin_MarkupCompile.cache
+c:\Users\Dell\documents\visual studio 2015\Projects\Konkurs\KonkursAdmin\obj\Debug\KonkursAdmin_MarkupCompile.lref
+c:\Users\Dell\documents\visual studio 2015\Projects\Konkurs\KonkursAdmin\obj\Debug\MainWindow.baml
+c:\Users\Dell\documents\visual studio 2015\Projects\Konkurs\KonkursAdmin\obj\Debug\KonkursAdmin.g.resources
+c:\Users\Dell\documents\visual studio 2015\Projects\Konkurs\KonkursAdmin\obj\Debug\KonkursAdmin.Properties.Resources.resources
+c:\Users\Dell\documents\visual studio 2015\Projects\Konkurs\KonkursAdmin\obj\Debug\KonkursAdmin.csproj.GenerateResource.Cache
+c:\Users\Dell\documents\visual studio 2015\Projects\Konkurs\KonkursAdmin\obj\Debug\KonkursAdmin.exe
+c:\Users\Dell\documents\visual studio 2015\Projects\Konkurs\KonkursAdmin\obj\Debug\KonkursAdmin.pdb
