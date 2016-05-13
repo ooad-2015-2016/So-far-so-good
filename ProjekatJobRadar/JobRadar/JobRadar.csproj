@@ -118,6 +118,11 @@
     <None Include="JobRadar_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\korisnik.png" />
+    <Content Include="Assets\LOGO.JPG" />
+    <Content Include="Assets\nekareklama1.jpg" />
+    <Content Include="Assets\nekareklama2.jpg" />
+    <Content Include="Assets\nekareklama3.jpg" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />
@@ -133,10 +138,12 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="JobRadarBaza\Views\" />
-  </ItemGroup>
-  <ItemGroup>
+    <Page Include="JobRadarBaza\Views\ProfilNezaposlenog.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
