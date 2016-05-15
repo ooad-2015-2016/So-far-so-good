@@ -140,6 +140,14 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
+    <Page Include="Forme\LogInForma.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Forme\RegistracijaForma.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="JobRadarBaza\Views\ProfilNezaposlenog.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
