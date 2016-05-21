@@ -7,34 +7,50 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <TextBlock Text="JobRadar" FontSize="16" FontWeight="Bold" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,10,0,0"></TextBlock>
-        <TextBlock Text="Registration" FontSize="28" HorizontalAlignment="Left" Margin="10,30,0,0"></TextBlock>
+    <Grid>
+        <Grid.Background>
+            <SolidColorBrush Color="#FF0F0215"/>
+        </Grid.Background>
+        <TextBlock Text="JobRadar" FontSize="16" FontWeight="Bold" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,10,0,0">
+            <TextBlock.Foreground>
+                <SolidColorBrush Color="{StaticResource SvijetloPlava}"/>
+            </TextBlock.Foreground></TextBlock>
+        <TextBlock Text="Registration" FontSize="28" HorizontalAlignment="Left" Margin="10,30,0,0">
+            <TextBlock.Foreground>
+                <SolidColorBrush Color="{StaticResource SvijetloPlava}"/>
+            </TextBlock.Foreground></TextBlock>
         <StackPanel>
-            <ProgressBar Margin="0,100,0,0" VerticalAlignment="Top" Value="33"></ProgressBar>
-            <TextBlock Text="progress" Margin="20,0,0,0"></TextBlock>
-            <TextBlock Text="First name:" HorizontalAlignment="Center" Margin="0,30,0,0"/>
-            <TextBox Width="200" Name="txtFirstName" Margin="0,5,0,0"></TextBox>
+            <ProgressBar Margin="0,100,0,0" VerticalAlignment="Top" Value="33" Background="#33FFFAFA" Foreground="#FFC17922"></ProgressBar>
+            <TextBlock Text="progress" Margin="20,0,0,0" Foreground="#FFFBFBFB"></TextBlock >
+            <TextBlock Text="First name:" HorizontalAlignment="Center" Margin="0,30,0,0" Foreground="#FFFBFBFB"/>
+            <TextBox Width="200" Name="txtFirstName" Margin="0,5,0,0" ></TextBox>
 
-            <TextBlock Text="Last name:" HorizontalAlignment="Center" Margin="0,5,0,0"/>
+            <TextBlock Text="Last name:" HorizontalAlignment="Center" Margin="0,5,0,0" Foreground="#FFFBFBFB"/>
             <TextBox Width="200" Name="txtLastName" Margin="0,5,0,0"></TextBox>
 
-            <TextBlock Text="Birth date:" HorizontalAlignment="Center" Margin="0,5,0,0"/>
+            <TextBlock Text="Birth date:" HorizontalAlignment="Center" Margin="0,5,0,0" Foreground="#FFFBFBFB"/>
             <DatePicker Name="dateBirthDate" HorizontalAlignment="Center" Margin="0,5,0,0" ></DatePicker>
 
-            <TextBlock Text="Location:" HorizontalAlignment="Center"></TextBlock>
-
-            <TextBlock Text="Username:" HorizontalAlignment="Center" Margin="0,20,0,0"></TextBlock>
+            <TextBlock Text="Location:" HorizontalAlignment="Center" Foreground="#FFFBFBFB"></TextBlock>
+            <TextBox Width="200" Name="txtLocation" Margin="0,5,0,0"></TextBox>
+            <TextBlock Text="Username:" HorizontalAlignment="Center" Margin="0,15,0,0" Foreground="#FFFBFBFB"></TextBlock>
             <TextBox HorizontalAlignment="Center" Width="200" Margin="0,5,0,0"></TextBox>
 
-            <TextBlock Text="Password:" HorizontalAlignment="Center" Margin="0,5,0,0"></TextBlock>
+            <TextBlock Text="Password:" HorizontalAlignment="Center" Margin="0,5,0,0" Foreground="#FFFBFBFB"></TextBlock>
             <PasswordBox Name="txtPassword" Width="200"></PasswordBox>
 
-            <TextBlock Text="Confirm password:" HorizontalAlignment="Center" Margin="0,5,0,0"></TextBlock>
+            <TextBlock Text="Confirm password:" HorizontalAlignment="Center" Margin="0,5,0,0" Foreground="#FFFBFBFB"></TextBlock>
             <PasswordBox Name="txtPasswordConfirm" HorizontalAlignment="Center" Margin="0,5,0,0" Width="200"></PasswordBox>
+            <Button Name="btnRegister" FontSize="20" Width="100" HorizontalAlignment="Center" Margin="0,25,0,0" Foreground="#FFF3F3F3">
+                <Button.Background>
+                    <SolidColorBrush Color="#FFC17922"/>
+                </Button.Background> Register
+            </Button>
+              
 
-            <Button Name="btnNext" HorizontalAlignment="Center" Margin="0,20,0,0" Width="100" >Next</Button>
         </StackPanel>
+        <Image x:Name="image1" Source="/Assets/LOGO2.png" HorizontalAlignment="Left" Height="122" Margin="1158,10,0,0" VerticalAlignment="Top" Width="122"/>
+
     </Grid>
 
 </Page>
