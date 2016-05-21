@@ -138,13 +138,19 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
-    <Page Include="Forme\LogInForma.xaml">
+    <Folder Include="Forme\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="JobRadarBaza\Views\LogInForma.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Forme\RegistracijaForma.xaml">
+    <Page Include="JobRadarBaza\Views\ProfilPoslodavca.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="JobRadarBaza\Views\RegistracijaForma.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

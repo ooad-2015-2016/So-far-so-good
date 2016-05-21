@@ -1,5 +1,6 @@
 App.xbf
-Forme\LogInForma.xbf
-Forme\RegistracijaForma.xbf
+JobRadarBaza\Views\LogInForma.xbf
 JobRadarBaza\Views\ProfilNezaposlenog.xbf
+JobRadarBaza\Views\ProfilPoslodavca.xbf
+JobRadarBaza\Views\RegistracijaForma.xbf
 MainPage.xbf

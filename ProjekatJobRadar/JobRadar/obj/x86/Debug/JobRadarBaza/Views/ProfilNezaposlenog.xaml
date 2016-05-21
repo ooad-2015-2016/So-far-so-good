@@ -28,26 +28,27 @@
             </Border.Background>
         </Border>
         <TextBlock Text="First name:" HorizontalAlignment="Left" Margin="250,150,0,0" Foreground="#FFFBFBFB"/>
-        <TextBlock Name="Imetxt" Text="Mujo" HorizontalAlignment="Left" Margin="450,150,0,0" Foreground="#FFFBFBFB"/>
+        <TextBlock x:ConnectionId='1' Name="Imetxt" Text="Mujo" HorizontalAlignment="Left" Margin="450,150,0,0" Foreground="#FFFBFBFB"/>
         <TextBlock Text="Last name:" HorizontalAlignment="Left" Margin="250,190,0,0" Foreground="#FFFBFBFB"/>
-        <TextBlock Name="Prezimetxt" Text="Mujić" HorizontalAlignment="Left" Margin="450,190,0,0" Foreground="#FFFBFBFB"/>
+        <TextBlock x:ConnectionId='2' Name="Prezimetxt" Text="Mujić" HorizontalAlignment="Left" Margin="450,190,0,0" Foreground="#FFFBFBFB"/>
         <TextBlock Text="E-mail:" HorizontalAlignment="Left" Margin="250,230,0,0" Foreground="#FFFBFBFB"/>
-        <TextBlock Name="emailtxt" Text="mujomujic@gmail.com" HorizontalAlignment="Left" Margin="450,230,0,0" Foreground="#FFFBFBFB"/>
+        <TextBlock x:ConnectionId='3' Name="emailtxt" Text="mujomujic@gmail.com" HorizontalAlignment="Left" Margin="450,230,0,0" Foreground="#FFFBFBFB"/>
 
         <TextBlock Text="Birth date:" HorizontalAlignment="Left" Margin="250,270,0,0" Foreground="#FFFBFBFB"/>
-        <TextBlock Name="GodRodjtxt" Text="1990" HorizontalAlignment="Left" Margin="450,270,0,0" Foreground="#FFFBFBFB"/>
+        <TextBlock x:ConnectionId='4' Name="GodRodjtxt" Text="1990" HorizontalAlignment="Left" Margin="450,270,0,0" Foreground="#FFFBFBFB"/>
         <TextBlock Text="Location:" HorizontalAlignment="Left" Margin="250,310,0,0" Foreground="#FFFBFBFB"/>
-        <TextBlock Name="Lokacijatxt" Text="Sarajevo, Bosna i Hercegovina" HorizontalAlignment="Left" Margin="450,310,0,0" Foreground="#FFFBFBFB"/>
+        <TextBlock x:ConnectionId='5' Name="Lokacijatxt" Text="Sarajevo, Bosna i Hercegovina" HorizontalAlignment="Left" Margin="450,310,0,0" Foreground="#FFFBFBFB"/>
         <TextBlock Text="About me:" HorizontalAlignment="Left" Margin="250,350,0,0" Foreground="#FFFBFBFB"/>
-        <TextBlock Name="Opistxt" Text="Skromnost je vrlina skromnih ljudi." HorizontalAlignment="Left" Margin="450,350,0,0" Foreground="#FFFBFBFB"/>
+        <TextBlock x:ConnectionId='6' Name="Opistxt" Text="Skromnost je vrlina skromnih ljudi." HorizontalAlignment="Left" Margin="450,350,0,0" Foreground="#FFFBFBFB"/>
         <TextBlock Text="Curriculum Vitae:" HorizontalAlignment="Left" Margin="250,390,0,0" Foreground="#FFFBFBFB"/>
-        <Button x:Name="CVbtn" Content="Download CV" HorizontalAlignment="Left" Margin="450,384,0,0" VerticalAlignment="Top" Foreground="#FFFBFAFA">
+        <Button x:ConnectionId='7' x:Name="CVbtn" Content="Download CV" HorizontalAlignment="Left" Margin="450,384,0,0" VerticalAlignment="Top" Foreground="#FFFBFAFA">
             <Button.Background>
                 <SolidColorBrush Color="{StaticResource Zuta}"/>
             </Button.Background>
         </Button>
-        <Image x:Name="image" Source="/Assets/korisnik.png" HorizontalAlignment="Left" Height="136" Margin="37,122,0,0" VerticalAlignment="Top" Width="143"/>
-        <Image x:Name="image1" Source="/Assets/LOGO2.png" HorizontalAlignment="Left" Height="122" Margin="1158,10,0,0" VerticalAlignment="Top" Width="122"/>
+        <Image x:ConnectionId='8' x:Name="image" Source="/Assets/korisnik.png" HorizontalAlignment="Left" Height="136" Margin="37,122,0,0" VerticalAlignment="Top" Width="143"/>
+        <Image x:ConnectionId='9' x:Name="image1" Source="/Assets/LOGO2.png" HorizontalAlignment="Left" Height="122" Margin="1158,10,0,0" VerticalAlignment="Top" Width="122"/>
 
     </Grid>
 </Page>
+
