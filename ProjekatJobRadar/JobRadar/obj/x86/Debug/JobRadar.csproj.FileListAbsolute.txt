@@ -1278,3 +1278,8 @@ C:\Users\HP\Desktop\GIT\SoFarSoGood\ProjekatJobRadar\JobRadar\obj\x86\Debug\JobR
 C:\Users\HP\Desktop\GIT\SoFarSoGood\ProjekatJobRadar\JobRadar\obj\x86\Debug\JobRadarBaza\Views\ProfilPoslodavca.xaml
 C:\Users\HP\Desktop\GIT\SoFarSoGood\ProjekatJobRadar\JobRadar\obj\x86\Debug\JobRadarBaza\Views\ProfilPoslodavca.xbf
 C:\Users\HP\Desktop\GIT\SoFarSoGood\ProjekatJobRadar\JobRadar\bin\x86\Debug\JobRadarBaza\Views\ProfilPoslodavca.xbf
+C:\Users\HP\Desktop\GIT\SoFarSoGood\ProjekatJobRadar\JobRadar\bin\x86\Debug\JobRadarBaza\Views\Pocetna.xbf
+C:\Users\HP\Desktop\GIT\SoFarSoGood\ProjekatJobRadar\JobRadar\obj\x86\Debug\JobRadarBaza\Views\Pocetna.g.i.cs
+C:\Users\HP\Desktop\GIT\SoFarSoGood\ProjekatJobRadar\JobRadar\obj\x86\Debug\JobRadarBaza\Views\Pocetna.g.cs
+C:\Users\HP\Desktop\GIT\SoFarSoGood\ProjekatJobRadar\JobRadar\obj\x86\Debug\JobRadarBaza\Views\Pocetna.xaml
+C:\Users\HP\Desktop\GIT\SoFarSoGood\ProjekatJobRadar\JobRadar\obj\x86\Debug\JobRadarBaza\Views\Pocetna.xbf

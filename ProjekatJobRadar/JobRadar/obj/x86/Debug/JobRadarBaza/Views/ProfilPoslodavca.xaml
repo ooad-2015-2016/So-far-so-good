@@ -12,7 +12,7 @@
 
     <Grid>
         <Grid.Background>
-            <SolidColorBrush Color="{StaticResource TamnaLjubicasta}"/>
+            <SolidColorBrush Color="{StaticResource tamnaLjubicasta}"/>
         </Grid.Background>
         <TextBlock Text="JobRadar" FontSize="16" FontWeight="Bold" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,10,0,0">
             <TextBlock.Foreground>

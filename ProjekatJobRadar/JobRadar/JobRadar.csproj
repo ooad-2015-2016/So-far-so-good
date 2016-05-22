@@ -123,6 +123,7 @@
     <Content Include="Assets\nekareklama1.jpg" />
     <Content Include="Assets\nekareklama2.jpg" />
     <Content Include="Assets\nekareklama3.jpg" />
+    <Content Include="Assets\SlikaJobRadar.jpg" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />
@@ -143,6 +144,10 @@
   </ItemGroup>
   <ItemGroup>
     <Page Include="JobRadarBaza\Views\LogInForma.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="JobRadarBaza\Views\Pocetna.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

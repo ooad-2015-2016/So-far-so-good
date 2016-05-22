@@ -429,6 +429,9 @@
     <AppxPackagedFile Include="C:\Users\HP\Desktop\GIT\SoFarSoGood\ProjekatJobRadar\JobRadar\Assets\nekareklama3.jpg">
       <PackagePath>Assets\nekareklama3.jpg</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\HP\Desktop\GIT\SoFarSoGood\ProjekatJobRadar\JobRadar\Assets\SlikaJobRadar.jpg">
+      <PackagePath>Assets\SlikaJobRadar.jpg</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HP\Desktop\GIT\SoFarSoGood\ProjekatJobRadar\JobRadar\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>

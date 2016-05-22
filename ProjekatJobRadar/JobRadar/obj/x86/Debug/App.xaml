@@ -7,6 +7,7 @@
     <Application.Resources>
         <Color x:Key="SvijetloPlava">#FFA2E0D7</Color>
         <Color x:Key="Zuta">#FFC17922</Color>
+        <Color x:Key="tamnaLjubicasta">#FF0F0215</Color>
     </Application.Resources>
 
 </Application>
