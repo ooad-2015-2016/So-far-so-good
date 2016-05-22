@@ -1,0 +1,58 @@
+﻿<Page
+    x:Class="JobRadar.Registracija2Forma"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:JobRadar"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="#FF0F0215">
+        <TextBlock Text="JobRadar" FontSize="16" FontWeight="Bold" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,10,0,0">
+            <TextBlock.Foreground>
+                <SolidColorBrush Color="{StaticResource SvijetloPlava}"/>
+            </TextBlock.Foreground>
+        </TextBlock>
+        <TextBlock Text="Registration" FontSize="28" HorizontalAlignment="Left" Margin="10,30,0,0">
+            <TextBlock.Foreground>
+                <SolidColorBrush Color="{StaticResource SvijetloPlava}"/>
+            </TextBlock.Foreground>
+        </TextBlock>
+        <StackPanel>
+            <ProgressBar Margin="0,100,0,0" VerticalAlignment="Top" Value="66"></ProgressBar>
+
+            <TextBlock Text="progress" Margin="20,0,0,0"></TextBlock>
+        </StackPanel>
+        <StackPanel VerticalAlignment="Center">
+            <TextBlock Text="Profession" HorizontalAlignment="Center" Margin="0,30,0,0">
+                <TextBlock.Foreground>
+                    <SolidColorBrush Color="{StaticResource SvijetloPlava}"/>
+                </TextBlock.Foreground>
+            </TextBlock>
+            <TextBox Width="200" Name="txtProfession" Margin="0,5,0,0">
+                
+            </TextBox>
+
+            <TextBlock Text="High school" HorizontalAlignment="Center" Margin="0,10,0,0">
+                <TextBlock.Foreground>
+                    <SolidColorBrush Color="{StaticResource SvijetloPlava}"/>
+                </TextBlock.Foreground>
+            </TextBlock>
+            <TextBox Width="200" Name="txtHighSchoon" Margin="0,5,0,0"></TextBox>
+
+            <TextBlock Text="University:" HorizontalAlignment="Center" Margin="0,10,0,0">
+                <TextBlock.Foreground>
+                    <SolidColorBrush Color="{StaticResource SvijetloPlava}"/>
+                </TextBlock.Foreground>
+            </TextBlock>
+            <TextBox Width="200" Name="txtUniversity" HorizontalAlignment="Center" Margin="0,5,0,0"/>
+
+
+            <Button Name="btnNext" HorizontalAlignment="Center" Margin="0,20,0,0" Width="100" Foreground="White">Next
+                <Button.Background>
+                    <SolidColorBrush Color="{StaticResource Zuta}"/>
+                </Button.Background>
+            </Button>
+        </StackPanel>
+    </Grid>
+</Page>
