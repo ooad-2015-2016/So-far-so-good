@@ -18,6 +18,7 @@
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Children" />
+      <RootProperty Name="Margin" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Image">
       <RootProperty Name="Source" />
@@ -101,6 +102,7 @@
       <RootProperty Name="FontSize" />
     </RootType>
     <RootType FullName="JobRadar.Pocetna" />
+    <RootType FullName="JobRadar.PocetnaRegistracija" />
     <RootType FullName="Windows.UI.Xaml.Controls.Border">
       <RootProperty Name="BorderBrush" />
       <RootProperty Name="BorderThickness" />
@@ -119,6 +121,7 @@
       <RootProperty Name="Background" />
       <RootProperty Name="Foreground" />
     </RootType>
+    <RootType FullName="JobRadar.Registracija2Forma" />
     <RootType FullName="Windows.UI.Xaml.Controls.DatePicker">
       <RootProperty Name="Name" />
       <RootProperty Name="HorizontalAlignment" />
@@ -126,6 +129,11 @@
     </RootType>
     <RootType FullName="JobRadar.RegistracijaForma" />
     <RootType FullName="JobRadar.ProfilNezaposlenog" />
+    <RootType FullName="Windows.UI.Xaml.Controls.RichTextBlock">
+      <RootProperty Name="Height" />
+      <RootProperty Name="Margin" />
+    </RootType>
+    <RootType FullName="JobRadar.Registracija3Forma" />
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.ThemeResourceExtension" />
     <RootType FullName="JobRadar.MainPage" />
   </Roots.RootTypes>

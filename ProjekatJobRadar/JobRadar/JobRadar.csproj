@@ -104,6 +104,13 @@
     <Compile Include="JobRadarBaza\Models\DefaultPodaci.cs" />
     <Compile Include="JobRadarBaza\Models\Lokacija.cs" />
     <Compile Include="JobRadarBaza\Models\Poslodavac.cs" />
+    <Compile Include="JobRadarBaza\ViewModels\LoginViewModel.cs" />
+    <Compile Include="JobRadarBaza\Views\LogInForma.xaml.cs">
+      <DependentUpon>LogInForma.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="JobRadarBaza\Views\Pocetna.xaml.cs">
+      <DependentUpon>Pocetna.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\20160503124309_InitialMigration.cs" />
     <Compile Include="Migrations\20160503124309_InitialMigration.designer.cs">
       <DependentUpon>20160503124309_InitialMigration.cs</DependentUpon>
