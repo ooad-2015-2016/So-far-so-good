@@ -29,7 +29,7 @@
             </TextBlock.Foreground>
         </TextBlock>
 
-        <Button x:Name="button" Content="Sign up" HorizontalAlignment="Left" Height="31" Margin="1136,25,0,0" VerticalAlignment="Top" Width="106" Foreground="#FFFBF5F5" FontSize="13">
+        <Button x:Name="button" Content="Sign up" HorizontalAlignment="Left" Height="31" Margin="1136,25,0,0" VerticalAlignment="Top" Width="106" Foreground="#FFFBF5F5" FontSize="13" Click="SignUpBtn_Click">
             <Button.Background>
                 <SolidColorBrush Color="{StaticResource Zuta}"/>
             </Button.Background>

@@ -36,7 +36,7 @@ namespace JobRadar
 
         private void SignUpBtn_Click(object sender, Windows.UI.Xaml.RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(RegistracijaForma));
+            this.Frame.Navigate(typeof(PocetnaRegistracija));
         }
     }
 }

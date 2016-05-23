@@ -79,6 +79,7 @@
       <RootProperty Name="Content" />
       <RootProperty Name="Height" />
       <RootProperty Name="VerticalAlignment" />
+      <RootEvent Name="Click" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Media.SolidColorBrush">
       <RootProperty Name="Color" />
@@ -102,7 +103,6 @@
       <RootProperty Name="FontSize" />
     </RootType>
     <RootType FullName="JobRadar.Pocetna" />
-    <RootType FullName="JobRadar.PocetnaRegistracija" />
     <RootType FullName="Windows.UI.Xaml.Controls.Border">
       <RootProperty Name="BorderBrush" />
       <RootProperty Name="BorderThickness" />
@@ -113,6 +113,7 @@
       <RootProperty Name="Width" />
       <RootProperty Name="Background" />
     </RootType>
+    <RootType FullName="JobRadar.PocetnaRegistracija" />
     <RootType FullName="JobRadar.ProfilPoslodavca" />
     <RootType FullName="Windows.UI.Xaml.Controls.ProgressBar">
       <RootProperty Name="Margin" />

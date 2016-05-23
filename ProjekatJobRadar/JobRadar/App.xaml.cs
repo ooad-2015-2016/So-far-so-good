@@ -75,29 +75,15 @@ namespace JobRadar
                 Window.Current.Content = rootFrame;
             }
 
-            if (rootFrame.Content == null)
-            {
-                IPropertySet roamingProperties = ApplicationData.Current.RoamingSettings.Values;
-                if (roamingProperties.ContainsKey("HasBeenHereBefore"))
-                {
-                    
-                    rootFrame.Navigate(typeof(MainPage), e.Arguments);
-                }
-                else
-                {
-                    // The first-time case
-                    rootFrame.Navigate(typeof(JobRadar.Pocetna), e.Arguments);
-                    roamingProperties["HasBeenHereBefore"] = bool.TrueString; 
-                }
-            }
-            /*
+          
+            
             if (rootFrame.Content == null)
             {
                 // When the navigation stack isn't restored navigate to the first page,
                 // configuring the new page by passing required information as a navigation
                 // parameter
                 rootFrame.Navigate(typeof(JobRadar.Pocetna), e.Arguments);
-            }*/
+            }
             // Ensure the current window is active
             Window.Current.Activate();
         }
