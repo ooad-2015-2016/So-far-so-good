@@ -19,13 +19,13 @@
             </TextBlock.Foreground>
         </TextBlock>
 
-        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="6" Margin="0,100,0,0" VerticalAlignment="Top" Width="1280">
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="6" Margin="0,100,0,0" VerticalAlignment="Top" Width="1920">
             <Border.Background>
                 <SolidColorBrush Color="{StaticResource Zuta}"/>
             </Border.Background>
         </Border>
         <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
-            <Button Name="btnRegistracijaKompanije" Content="Looking for job" Height="50" Width="200" FontSize="22" Foreground="White">
+            <Button Name="btnRegistracijaKompanije" Content="Looking for job" Height="50" Width="200" FontSize="22" Foreground="White" Click="btnRegistracijaKompanije_Click">
                 <Button.Background>
                     <SolidColorBrush Color="#FFC17922"/>
                 </Button.Background>

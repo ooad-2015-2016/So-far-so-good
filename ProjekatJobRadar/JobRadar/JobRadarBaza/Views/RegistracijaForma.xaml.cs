@@ -9,10 +9,9 @@ using Windows.UI.Xaml.Navigation;
 
 namespace JobRadar
 {
-    public partial class PocetnaRegistracija:Page
+    public partial class RegistracijaForma:Page
     {
-
-        public PocetnaRegistracija()
+        public RegistracijaForma()
         {
             this.InitializeComponent();
             //DataContext
@@ -23,11 +22,6 @@ namespace JobRadar
         {
             var currentView = SystemNavigationManager.GetForCurrentView();
             currentView.AppViewBackButtonVisibility = AppViewBackButtonVisibility.Collapsed;
-        }
-
-        private void btnRegistracijaKompanije_Click(object sender, Windows.UI.Xaml.RoutedEventArgs e)
-        {
-            this.Frame.Navigate(typeof(RegistracijaForma));
         }
     }
 }

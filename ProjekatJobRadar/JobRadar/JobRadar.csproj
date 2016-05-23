@@ -114,6 +114,9 @@
     <Compile Include="JobRadarBaza\Views\PocetnaRegistracija.xaml.cs">
       <DependentUpon>PocetnaRegistracija.xaml</DependentUpon>
     </Compile>
+    <Compile Include="JobRadarBaza\Views\RegistracijaForma.xaml.cs">
+      <DependentUpon>RegistracijaForma.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\20160503124309_InitialMigration.cs" />
     <Compile Include="Migrations\20160503124309_InitialMigration.designer.cs">
       <DependentUpon>20160503124309_InitialMigration.cs</DependentUpon>
