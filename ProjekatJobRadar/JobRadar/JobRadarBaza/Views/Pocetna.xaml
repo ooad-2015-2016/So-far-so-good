@@ -34,7 +34,7 @@
                 <SolidColorBrush Color="{StaticResource Zuta}"/>
             </Button.Background>
         </Button>
-        <AppBarButton Label="Login" Margin="1024,-4,0,0" Height="77" Width="73">
+        <AppBarButton Label="Login" Margin="1024,-4,0,0" Height="77" Width="73" Click="Loginbtn_Click">
             <AppBarButton.Icon>
                 <FontIcon FontFamily="ms-appx:///modernuiicons.ttf#Modern-UI-Icons---Social"
             Margin="0,2,-84,-48"  FontSize="100" />
