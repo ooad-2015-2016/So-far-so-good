@@ -6,17 +6,23 @@ using System.Threading.Tasks;
 
 using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
+using System.Runtime.Serialization;
 
 namespace JobRadar.JobRadarBaza.Models
 {
+    [DataContract]
     public class OsobaKojaTraziPosao:Korisnik
     {
-        
+        [DataMember]
         private string ime { get; set; }
+        [DataMember]
         private string prezime { get; set; }
+        [DataMember]
         private DateTime datumRodjenja { get; set; }
+        [DataMember]
         private DateTime godinaZavrsetkaObrazovanja { get; set; }
         //file CV dodati
+        [DataMember]
         private bool zaposlen {get; set; }
         private List<Konkurs> prijavljenNaKonkurse { get; set; }
 

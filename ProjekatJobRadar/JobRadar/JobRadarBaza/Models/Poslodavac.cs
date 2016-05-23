@@ -3,15 +3,20 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
+using System.Runtime.Serialization;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace JobRadar.JobRadarBaza.Models
 {
+    [DataContract]
     public class Poslodavac:Korisnik
     {
+        [DataMember]
         private string nazivPoslodavca { get; set; }
+        [DataMember]
         private string opis { get; set; }
+        [DataMember]
         private Lokacija lokacija { get; set; }
         private List<Konkurs> konkursi { get; set; }
 
