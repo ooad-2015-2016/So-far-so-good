@@ -52,7 +52,7 @@
             <RichTextBlock Height="140" Margin="0,20,0,0">
 
             </RichTextBlock>
-            <Button Name="btnFinish" Content="Finish" HorizontalAlignment="Center" Width="100" Foreground="#FFF3F3F3">
+            <Button Click="btnFinish_Click" Name="btnFinish" Content="Finish" HorizontalAlignment="Center" Width="100" Foreground="#FFF3F3F3">
                 <Button.Background>
                     <SolidColorBrush Color="{StaticResource Zuta}"/>
                 </Button.Background>

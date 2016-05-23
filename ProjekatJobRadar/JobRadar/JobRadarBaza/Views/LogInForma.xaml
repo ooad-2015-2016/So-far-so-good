@@ -26,7 +26,7 @@
             </Button>
         </StackPanel>
         <Image x:Name="image" Source="/Assets/LOGO2.png" HorizontalAlignment="Center" Height="327" Margin="16,40,16,0" VerticalAlignment="Top" Width="354" RenderTransformOrigin="0.403,0.509"/>
-        <HyperlinkButton Content="New user?" HorizontalAlignment="Center" Height="49" Margin="16,467,16,0" VerticalAlignment="Top" Width="266"/>
+        <HyperlinkButton Click="newUserHyperLinkBtn_Click" x:Name="newUserHyperLinkBtn" Content="New user?" HorizontalAlignment="Center" Height="49" Margin="16,467,16,0" VerticalAlignment="Top" Width="266"/>
 
     </Grid>
 </Page>

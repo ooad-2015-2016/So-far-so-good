@@ -25,12 +25,12 @@
             </Border.Background>
         </Border>
         <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
-            <Button x:ConnectionId='1' Name="btnRegistracijaKompanije" Content="Looking for job" Height="50" Width="200" FontSize="22" Foreground="White"                                       >
+            <Button x:ConnectionId='1' Name="btnRegistracijaKorisnika" Content="Looking for job" Height="50" Width="200" FontSize="22" Foreground="White"                                       >
                 <Button.Background>
                     <SolidColorBrush Color="#FFC17922"/>
                 </Button.Background>
             </Button>
-            <Button x:ConnectionId='2' Name="btnRegistracijaKorisnika" Content="Hire" Margin="0,20,0,0" Width="200" Height="50" FontSize="22" Foreground="White">
+            <Button x:ConnectionId='2'                                        Name="btnRegistracijaKompanije" Content="Hire" Margin="0,20,0,0" Width="200" Height="50" FontSize="22" Foreground="White">
                 <Button.Background>
                     <SolidColorBrush Color="#FFC17922"/>
                 </Button.Background>

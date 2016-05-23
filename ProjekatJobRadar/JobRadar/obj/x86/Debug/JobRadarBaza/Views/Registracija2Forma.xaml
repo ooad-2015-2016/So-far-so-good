@@ -48,7 +48,7 @@
             <TextBox x:ConnectionId='3' Width="200" Name="txtUniversity" HorizontalAlignment="Center" Margin="0,5,0,0"/>
 
 
-            <Button x:ConnectionId='4' Name="btnNext" HorizontalAlignment="Center" Margin="0,20,0,0" Width="100" Foreground="White">Next
+            <Button x:ConnectionId='4'                       Name="btnNext" HorizontalAlignment="Center" Margin="0,20,0,0" Width="100" Foreground="White">Next
                 <Button.Background>
                     <SolidColorBrush Color="{StaticResource Zuta}"/>
                 </Button.Background>

@@ -36,6 +36,7 @@
       <RootProperty Name="Margin" />
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Width" />
+      <RootEvent Name="Click" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
       <RootProperty Name="Text" />
@@ -136,6 +137,7 @@
       <RootProperty Name="Margin" />
     </RootType>
     <RootType FullName="JobRadar.Registracija3Forma" />
+    <RootType FullName="JobRadar.RegistracijaPoslodavca" />
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.ThemeResourceExtension" />
     <RootType FullName="JobRadar.MainPage" />
   </Roots.RootTypes>

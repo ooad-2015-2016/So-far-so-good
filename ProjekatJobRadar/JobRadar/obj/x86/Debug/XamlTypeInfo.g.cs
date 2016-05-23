@@ -132,7 +132,7 @@ namespace JobRadar.JobRadar_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[15];
+            _typeNameTable = new string[16];
             _typeNameTable[0] = "Windows.UI.Color";
             _typeNameTable[1] = "System.ValueType";
             _typeNameTable[2] = "Object";
@@ -147,9 +147,10 @@ namespace JobRadar.JobRadar_XamlTypeInfo
             _typeNameTable[11] = "JobRadar.RegistracijaForma";
             _typeNameTable[12] = "JobRadar.ProfilNezaposlenog";
             _typeNameTable[13] = "JobRadar.Registracija3Forma";
-            _typeNameTable[14] = "JobRadar.MainPage";
+            _typeNameTable[14] = "JobRadar.RegistracijaPoslodavca";
+            _typeNameTable[15] = "JobRadar.MainPage";
 
-            _typeTable = new global::System.Type[15];
+            _typeTable = new global::System.Type[16];
             _typeTable[0] = typeof(global::Windows.UI.Color);
             _typeTable[1] = typeof(global::System.ValueType);
             _typeTable[2] = typeof(global::System.Object);
@@ -164,7 +165,8 @@ namespace JobRadar.JobRadar_XamlTypeInfo
             _typeTable[11] = typeof(global::JobRadar.RegistracijaForma);
             _typeTable[12] = typeof(global::JobRadar.ProfilNezaposlenog);
             _typeTable[13] = typeof(global::JobRadar.Registracija3Forma);
-            _typeTable[14] = typeof(global::JobRadar.MainPage);
+            _typeTable[14] = typeof(global::JobRadar.RegistracijaPoslodavca);
+            _typeTable[15] = typeof(global::JobRadar.MainPage);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -207,7 +209,8 @@ namespace JobRadar.JobRadar_XamlTypeInfo
         private object Activate_11_RegistracijaForma() { return new global::JobRadar.RegistracijaForma(); }
         private object Activate_12_ProfilNezaposlenog() { return new global::JobRadar.ProfilNezaposlenog(); }
         private object Activate_13_Registracija3Forma() { return new global::JobRadar.Registracija3Forma(); }
-        private object Activate_14_MainPage() { return new global::JobRadar.MainPage(); }
+        private object Activate_14_RegistracijaPoslodavca() { return new global::JobRadar.RegistracijaPoslodavca(); }
+        private object Activate_15_MainPage() { return new global::JobRadar.MainPage(); }
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
@@ -307,9 +310,16 @@ namespace JobRadar.JobRadar_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 14:   //  JobRadar.MainPage
+            case 14:   //  JobRadar.RegistracijaPoslodavca
                 userType = new global::JobRadar.JobRadar_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_14_MainPage;
+                userType.Activator = Activate_14_RegistracijaPoslodavca;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 15:   //  JobRadar.MainPage
+                userType = new global::JobRadar.JobRadar_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_15_MainPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;

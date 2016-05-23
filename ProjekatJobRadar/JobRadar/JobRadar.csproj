@@ -114,8 +114,17 @@
     <Compile Include="JobRadarBaza\Views\PocetnaRegistracija.xaml.cs">
       <DependentUpon>PocetnaRegistracija.xaml</DependentUpon>
     </Compile>
+    <Compile Include="JobRadarBaza\Views\Registracija2Forma.xaml.cs">
+      <DependentUpon>Registracija2Forma.xaml</DependentUpon>
+    </Compile>
     <Compile Include="JobRadarBaza\Views\RegistracijaForma.xaml.cs">
       <DependentUpon>RegistracijaForma.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="JobRadarBaza\Views\RegistracijaForma3.xaml.cs">
+      <DependentUpon>RegistracijaForma3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="JobRadarBaza\Views\RegistracijaPoslodavca.xaml.cs">
+      <DependentUpon>RegistracijaPoslodavca.xaml</DependentUpon>
     </Compile>
     <Compile Include="Migrations\20160503124309_InitialMigration.cs" />
     <Compile Include="Migrations\20160503124309_InitialMigration.designer.cs">
@@ -187,6 +196,10 @@
     <Page Include="JobRadarBaza\Views\RegistracijaForma3.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="JobRadarBaza\Views\RegistracijaPoslodavca.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="MainPage.xaml">
       <SubType>Designer</SubType>

@@ -41,7 +41,7 @@
 
             <TextBlock Text="Confirm password:" HorizontalAlignment="Center" Margin="0,5,0,0" Foreground="#FFFBFBFB"></TextBlock>
             <PasswordBox x:ConnectionId='7' Name="txtPasswordConfirm" HorizontalAlignment="Center" Margin="0,5,0,0" Width="200"></PasswordBox>
-            <Button x:ConnectionId='8' Name="btnRegister" FontSize="20" Width="100" HorizontalAlignment="Center" Margin="0,25,0,0" Foreground="#FFF3F3F3">
+            <Button x:ConnectionId='8'                           Name="btnRegister" FontSize="20" Width="100" HorizontalAlignment="Center" Margin="0,25,0,0" Foreground="#FFF3F3F3">
                 <Button.Background>
                     <SolidColorBrush Color="#FFC17922"/>
                 </Button.Background> Register

@@ -23,5 +23,10 @@ namespace JobRadar
             var currentView = SystemNavigationManager.GetForCurrentView();
             currentView.AppViewBackButtonVisibility = AppViewBackButtonVisibility.Collapsed;
         }
+
+        private void btnRegister_Click(object sender, Windows.UI.Xaml.RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(Registracija2Forma));
+        }
     }
 }
