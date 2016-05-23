@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace JobRadar.JobRadarBaza.Models
 {
-    class Administrator:Korisnik
+    public class Administrator:Korisnik
     {
         private string ime { get; set; }
         private string prezime { get; set; }

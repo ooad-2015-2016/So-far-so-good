@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace JobRadar.JobRadarBaza.Models
 {
-    class Poslodavac:Korisnik
+    public class Poslodavac:Korisnik
     {
         private string nazivPoslodavca { get; set; }
         private string opis { get; set; }

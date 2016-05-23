@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace JobRadar.JobRadarBaza.Models
 {
-    class Oglasavanje
+    public class Oglasavanje
     {
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         [Key]

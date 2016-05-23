@@ -1,30 +1,27 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using JobRadar.JobRadarBaza.Models;
-using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+using System.Linq;
+using System.Web;
 
-namespace JobRadar.JobRadarBaza.Models
+namespace JobRadarWeb.Models
 {
     public class Konkurs
     {
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        [Key]
-        private int ID { get; set; }
-        private string NazivKonkursa;
-        private DateTime datumObjave;
-        private DateTime datumIsteka;
-        //fali
+     
+        public int ID { get; set; }
+        public string NazivKonkursa;
+        public DateTime datumObjave;
+        public DateTime datumIsteka;
+        
         public int LokacijaId { get; set; }
-        [ForeignKey("LokacijaId")]
         public Lokacija lokacijaPosla;
-        private bool javnoVidljiv;
-        private bool aktivan;
-        private int brojPregleda;
+        public bool javnoVidljiv;
+        public bool aktivan;
+        public int brojPregleda;
 
+        public Konkurs() { }
         public Konkurs(string NazivKonkursa, DateTime datumObjave, DateTime datumIsteka, Lokacija lokacija, bool vidljiv)
         {
             this.NazivKonkursa = NazivKonkursa;
@@ -35,7 +32,7 @@ namespace JobRadar.JobRadarBaza.Models
             this.brojPregleda = 0;
             aktivan = true;
             
-        } 
+        }
 
         public string getNaziv() { return NazivKonkursa; }
         public DateTime getDatumObjave() { return datumObjave; }

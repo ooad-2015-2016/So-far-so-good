@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace JobRadar.JobRadarBaza.Models
 {
-    class Lokacija
+    public class Lokacija
     {
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         private int LokacijaId { get; set; }
@@ -27,11 +27,7 @@ namespace JobRadar.JobRadarBaza.Models
             Adresa = adresa;
             PostanskiBroj = postanskiBroj;
         }
-        public string dajKontinent() { return Kontinent; }
-        public string dajDrzavu() { return Drzava; }
-        public string dajGrad() { return Grad; }
-        public string dajAdresu() { return Adresa; }
-        public string dajPostanskiBroj() { return PostanskiBroj; }
+       
 
     }
 }

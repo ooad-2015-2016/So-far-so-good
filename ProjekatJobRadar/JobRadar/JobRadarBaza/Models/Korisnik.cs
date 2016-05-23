@@ -24,7 +24,6 @@ namespace JobRadar.JobRadarBaza.Models
         public Korisnik() { aktiviran = false; }
         public Korisnik(string userName, string email, string pwd, bool aktiviran = false)
         {
-            userID = getUID();
             this.userName = userName;
             this.email = email;
             this.datumRegistracije = DateTime.Now;
@@ -32,14 +31,11 @@ namespace JobRadar.JobRadarBaza.Models
             this.passwordHash = getPwdHash(pwd);
             this.aktiviran = false;
             this.zabranjenPristup = false;
+            
 
         }
 
-        private int getUID()
-        {
-            return 1;       //dodati
-        }
-
+       
         private string getPwdHash(string pwd)
         {
             return "abcde123456";       //dodati
