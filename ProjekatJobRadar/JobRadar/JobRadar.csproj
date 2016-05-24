@@ -96,6 +96,7 @@
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
     <Compile Include="JobRadarBaza\Models\Administrator.cs" />
+    <Compile Include="JobRadarBaza\Models\CameraHelper.cs" />
     <Compile Include="JobRadarBaza\Models\ExterniServis.cs" />
     <Compile Include="JobRadarBaza\Models\JobRadarDBContext.cs" />
     <Compile Include="JobRadarBaza\Models\Konkurs.cs" />
@@ -105,6 +106,7 @@
     <Compile Include="JobRadarBaza\Models\DefaultPodaci.cs" />
     <Compile Include="JobRadarBaza\Models\Lokacija.cs" />
     <Compile Include="JobRadarBaza\Models\Poslodavac.cs" />
+    <Compile Include="JobRadarBaza\ViewModels\KorisnikViewModel.cs" />
     <Compile Include="JobRadarBaza\ViewModels\LoginViewModel.cs" />
     <Compile Include="JobRadarBaza\Views\LogInForma.xaml.cs">
       <DependentUpon>LogInForma.xaml</DependentUpon>

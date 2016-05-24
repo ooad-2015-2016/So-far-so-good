@@ -1,5 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Roots >
+  <Roots.PropertyPathNames>
+    <RootPropertyPathName Name="Slika" />
+    <RootPropertyPathName Name="Camera" />
+    <RootPropertyPathName Name="MediaCapture" />
+  </Roots.PropertyPathNames>
   <Roots.RootTypes>
     <RootType FullName="Windows.UI.Xaml.Application">
       <RootProperty Name="RequestedTheme" />
@@ -18,7 +23,9 @@
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Children" />
+      <RootProperty Name="Height" />
       <RootProperty Name="Margin" />
+      <RootProperty Name="Width" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Image">
       <RootProperty Name="Source" />
@@ -132,9 +139,15 @@
     </RootType>
     <RootType FullName="JobRadar.RegistracijaForma" />
     <RootType FullName="JobRadar.ProfilNezaposlenog" />
-    <RootType FullName="Windows.UI.Xaml.Controls.RichTextBlock">
+    <RootType FullName="Windows.UI.Xaml.Controls.CaptureElement">
+      <RootProperty Name="Source" />
+      <RootProperty Name="Stretch" />
       <RootProperty Name="Height" />
       <RootProperty Name="Margin" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Data.Binding">
+      <RootProperty Name="Path" />
+      <RootProperty Name="Mode" />
     </RootType>
     <RootType FullName="JobRadar.Registracija3Forma" />
     <RootType FullName="JobRadar.RegistracijaPoslodavca" />
