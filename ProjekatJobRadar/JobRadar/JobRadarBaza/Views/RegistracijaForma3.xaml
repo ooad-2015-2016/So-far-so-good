@@ -30,7 +30,8 @@
             <CaptureElement x:Name="PreviewControl" Source="{Binding Path=Camera.MediaCapture, Mode=TwoWay}"
         		Stretch="Uniform" Height="195" Margin="399,40,448,0" />
             <Image x:Name="SlikaControl" Source="{Binding Slika}" HorizontalAlignment="Left" Height="150" Margin="470,100,0,0" Width="248"/>
-
+            <Button x:Name="btnUslikaj" Content="Uslikaj" HorizontalAlignment="Center" Foreground="White" Background="Black" Command="{Binding Path=Uslikaj}"> </Button>
+
         </StackPanel>
 
     </Grid>

@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Roots >
   <Roots.PropertyPathNames>
+    <RootPropertyPathName Name="Uslikaj" />
     <RootPropertyPathName Name="Slika" />
     <RootPropertyPathName Name="Camera" />
     <RootPropertyPathName Name="MediaCapture" />
@@ -87,6 +88,7 @@
       <RootProperty Name="Content" />
       <RootProperty Name="Height" />
       <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Command" />
       <RootEvent Name="Click" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Media.SolidColorBrush">

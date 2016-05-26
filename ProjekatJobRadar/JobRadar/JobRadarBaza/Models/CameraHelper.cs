@@ -161,5 +161,6 @@ namespace JobRadar.JobRadarBaza.Models
   
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(memberName));
         }
-    }
+    }
+
 }
