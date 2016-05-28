@@ -119,7 +119,7 @@ namespace JobRadar.JobRadarBaza.Models
             
             _displayRequest.RequestActive();
           
-          //  PreviewControl.Source = MediaCapture;
+         
             PreviewControl.Source = mediaCapture;
             PreviewControl.FlowDirection = _mirroringPreview ? FlowDirection.RightToLeft :
            FlowDirection.LeftToRight;

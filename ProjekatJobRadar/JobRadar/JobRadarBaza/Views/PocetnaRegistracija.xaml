@@ -7,34 +7,37 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="#FF0F0215">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush Stretch="UniformToFill" ImageSource="ms-appx:///Assets/SlikaJobRadar.jpg"/>
+        </Grid.Background>
         <TextBlock Text="JobRadar" FontSize="16" FontWeight="Bold" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,10,0,0">
             <TextBlock.Foreground>
-                <SolidColorBrush Color="{StaticResource SvijetloPlava}"/>
+                <SolidColorBrush Color="{StaticResource tamnaLjubicasta}"/>
             </TextBlock.Foreground>
         </TextBlock>
         <TextBlock Text="Registration" FontSize="28" HorizontalAlignment="Left" Margin="10,30,0,0">
+            <TextBlock.SelectionHighlightColor>
+                <SolidColorBrush Color="{StaticResource tamnaLjubicasta}"/>
+            </TextBlock.SelectionHighlightColor>
             <TextBlock.Foreground>
-                <SolidColorBrush Color="{StaticResource SvijetloPlava}"/>
+                <SolidColorBrush Color="{StaticResource tamnaLjubicasta}"/>
             </TextBlock.Foreground>
         </TextBlock>
 
-        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="6" Margin="0,100,0,0" VerticalAlignment="Top" Width="1920">
+        <Border BorderThickness="1" HorizontalAlignment="Left" Height="6" Margin="0,100,0,0" VerticalAlignment="Top" Width="1920">
+            <Border.BorderBrush>
+                <SolidColorBrush Color="{StaticResource Zuta}"/>
+            </Border.BorderBrush>
             <Border.Background>
                 <SolidColorBrush Color="{StaticResource Zuta}"/>
             </Border.Background>
         </Border>
         <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
-            <Button Name="btnRegistracijaKorisnika" Content="Looking for job" Height="50" Width="200" FontSize="22" Foreground="White" Click="btnRegistracijaKorisnika_Click">
-                <Button.Background>
-                    <SolidColorBrush Color="#FFC17922"/>
-                </Button.Background>
-            </Button>
-            <Button Click="btnRegistracijaKompanije_Click" Name="btnRegistracijaKompanije" Content="Hire" Margin="0,20,0,0" Width="200" Height="50" FontSize="22" Foreground="White">
-                <Button.Background>
-                    <SolidColorBrush Color="#FFC17922"/>
-                </Button.Background>
-            </Button>
+            <Button x:Name="btnRegistracijaKorisnika" Content="Looking for a job" Height="50" Width="200" FontSize="22" Margin="0,150,0,0" Foreground="White" Click="btnRegistracijaKorisnika_Click" Background="#FFC17922"/>
+            <Button Click="btnRegistracijaKompanije_Click" x:Name="btnRegistracijaKompanije" Content="Hire" Margin="0,20,0,0" Width="200" Height="50" FontSize="22" Foreground="White" Background="#FFC17922"/>
         </StackPanel>
+        <Image x:Name="image1" Source="/Assets/LOGO2.png" HorizontalAlignment="Left" Height="122" Margin="1158,10,0,0" VerticalAlignment="Top" Width="122"/>
+
     </Grid>
 </Page>

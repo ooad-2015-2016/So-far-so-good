@@ -19,9 +19,13 @@
             </TextBlock.Foreground>
         </TextBlock>
         <StackPanel>
-            <ProgressBar Margin="0,100,0,0" VerticalAlignment="Top" Value="66"></ProgressBar>
+            <ProgressBar Margin="0,100,0,0" VerticalAlignment="Top" Value="66">
+                <ProgressBar.Foreground>
+                    <SolidColorBrush Color="{StaticResource Zuta}"/>
+                </ProgressBar.Foreground>
+            </ProgressBar>
 
-            <TextBlock Text="progress" Margin="20,0,0,0"></TextBlock>
+            <TextBlock Text="progress" Margin="20,0,0,0" Foreground="#FFFBF5F5"></TextBlock>
         </StackPanel>
         <StackPanel VerticalAlignment="Center">
             <TextBlock Text="Profession" HorizontalAlignment="Center" Margin="0,30,0,0">
@@ -54,5 +58,7 @@
                 </Button.Background>
             </Button>
         </StackPanel>
+        <Image x:Name="image1" Source="/Assets/LOGO2.png" HorizontalAlignment="Left" Height="122" Margin="1158,10,0,0" VerticalAlignment="Top" Width="122"/>
+
     </Grid>
 </Page>

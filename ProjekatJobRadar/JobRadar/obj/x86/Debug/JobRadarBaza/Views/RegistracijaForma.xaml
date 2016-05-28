@@ -41,12 +41,8 @@
 
             <TextBlock Text="Confirm password:" HorizontalAlignment="Center" Margin="0,5,0,0" Foreground="#FFFBFBFB"></TextBlock>
             <PasswordBox x:ConnectionId='7' Name="txtPasswordConfirm" HorizontalAlignment="Center" Margin="0,5,0,0" Width="200"></PasswordBox>
-            <Button x:ConnectionId='8'                           Name="btnRegister" FontSize="20" Width="100" HorizontalAlignment="Center" Margin="0,25,0,0" Foreground="#FFF3F3F3">
-                <Button.Background>
-                    <SolidColorBrush Color="#FFC17922"/>
-                </Button.Background> Register
-            </Button>
-              
+            <Button x:ConnectionId='8'                           x:Name="btnRegister" FontSize="20" Width="116" HorizontalAlignment="Center" Margin="550,25,560,0" Foreground="#FFF3F3F3" Height="39" Content="Next" Background="#FFC17922"/>
+
 
         </StackPanel>
         <Image x:ConnectionId='1' x:Name="image1" Source="/Assets/LOGO2.png" HorizontalAlignment="Left" Height="122" Margin="1158,10,0,0" VerticalAlignment="Top" Width="122"/>
