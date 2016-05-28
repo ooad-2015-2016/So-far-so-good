@@ -142,6 +142,7 @@
     <RootType FullName="JobRadar.RegistracijaForma" />
     <RootType FullName="JobRadar.ProfilNezaposlenog" />
     <RootType FullName="Windows.UI.Xaml.Controls.CaptureElement">
+      <RootProperty Name="Name" />
       <RootProperty Name="Source" />
       <RootProperty Name="Stretch" />
       <RootProperty Name="Height" />

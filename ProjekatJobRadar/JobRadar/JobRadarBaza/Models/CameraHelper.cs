@@ -23,6 +23,7 @@ namespace JobRadar.JobRadarBaza.Models
     {
         
         private MediaCapture mediaCapture;
+
         public MediaCapture MediaCapture
         {
             get { return mediaCapture; }
@@ -38,6 +39,7 @@ namespace JobRadar.JobRadarBaza.Models
         private bool _isRecording;
         private bool _externalCamera;
         private bool _mirroringPreview;
+
         private readonly DisplayRequest _displayRequest = new DisplayRequest();
         public string internalStatus;
         
@@ -68,7 +70,7 @@ namespace JobRadar.JobRadarBaza.Models
                     return;
                 }
                
-                MediaCapture = new MediaCapture();
+                mediaCapture = new MediaCapture();
                 var mediaInitSettings = new MediaCaptureInitializationSettings
                 {
                     VideoDeviceId =
@@ -77,7 +79,7 @@ namespace JobRadar.JobRadarBaza.Models
                 try
                 {
                     
-                    await MediaCapture.InitializeAsync(mediaInitSettings);
+                    await mediaCapture.InitializeAsync(mediaInitSettings);
                     _isInitialized = true;
                 }
                 catch (UnauthorizedAccessException)
@@ -105,6 +107,7 @@ namespace JobRadar.JobRadarBaza.Models
                         Windows.Devices.Enumeration.Panel.Front);
                     }
                     await StartPreviewAsync();
+                    
                 }
             }
 
@@ -116,14 +119,14 @@ namespace JobRadar.JobRadarBaza.Models
             
             _displayRequest.RequestActive();
           
-            PreviewControl.Source = MediaCapture;
-          
+          //  PreviewControl.Source = MediaCapture;
+            PreviewControl.Source = mediaCapture;
             PreviewControl.FlowDirection = _mirroringPreview ? FlowDirection.RightToLeft :
            FlowDirection.LeftToRight;
             try
             {
                
-                await MediaCapture.StartPreviewAsync();
+                await mediaCapture.StartPreviewAsync();
                 _isPreviewing = true;
             }
             catch (Exception ex)

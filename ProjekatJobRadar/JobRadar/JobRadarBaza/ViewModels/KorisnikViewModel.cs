@@ -5,6 +5,7 @@ using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Text;
 
+using Windows.Media;
 using System.Threading.Tasks;
 using System.Windows.Input;
 using Windows.UI.Xaml.Controls;
@@ -13,48 +14,82 @@ using JobRadar.JobRadarBaza.Models;
 
 namespace JobRadar.JobRadarBaza.ViewModels
 {
-    public class RelayCommand : ICommand
+    public class RelayCommand<T> : ICommand
     {
-        readonly Action<object> execute;
-        readonly Predicate<object> canExecute;
+        private readonly Func<T, bool> _canExecuteMethod;
+        private readonly Action<T> _executeMethod;
 
-        public RelayCommand(Action<object> execute)
-            : this(execute, null)
+        #region Constructors
+
+        public RelayCommand(Action<T> executeMethod):this(executeMethod, null)
+            { }
+
+        public RelayCommand(Action<T> executeMethod, Func<T,bool> canExecuteMethod)
         {
+            _executeMethod = executeMethod;
+            _canExecuteMethod = canExecuteMethod;
         }
 
-        public event EventHandler CanExecuteChanged
-        {
-            add { }
-            remove { }
-        }
+        #endregion
 
-        public RelayCommand(Action<object> execute, Predicate<object> canExecute)
+        #region ICommand Members
+
+        public event EventHandler CanExecuteChanged;
+
+        bool ICommand.CanExecute(object parameter)
         {
-            if (execute == null)
+            try
             {
-                throw new ArgumentNullException("execute");
+                return CanExecute((T)parameter);
+            } catch { return false; }
+        }
+
+        void ICommand.Execute(object parameter)
+        {
+            Execute((T)parameter);
+        }
+
+        #endregion ICommand Members
+
+        #region Public Methods
+        public bool CanExecute(T parameter)
+        {
+            return ((_canExecuteMethod == null) || _canExecuteMethod(parameter));
+        }
+
+        public void Execute(T parameter)
+        {
+            if (_executeMethod != null)
+                _executeMethod(parameter);
+        }
+
+        public void RaiseCanExecuteChanged()
+        {
+            OnCanExecuteChanged(EventArgs.Empty);
+        }
+        #endregion Public Methods
+
+        #region Protected Methods
+
+        protected virtual void OnCanExecuteChanged(EventArgs e)
+        {
+            var handler = CanExecuteChanged;
+            if(handler != null)
+            {
+                handler(this, e);
             }
-            this.execute = execute;
-            this.canExecute = canExecute;
         }
 
-        public bool CanExecute(object parameter)
-        {
-            return canExecute == null ? true : canExecute(parameter);
-        }
+        #endregion
 
-        public void Execute(object parameter)
-        {
-            execute(parameter);
-        }
     }
+
 
     class KorisnikViewModel:INotifyPropertyChanged
     {
         
       //  public Korisnik CreateUposlenik { get; set; }
-        ExterniServis eksterniServis;
+      //  ExterniServis eksterniServis;
         public CameraHelper Camera { get; set; }
 
     //    public ICommand DodajUposlenika { get; set; }
@@ -77,13 +112,13 @@ namespace JobRadar.JobRadarBaza.ViewModels
         public KorisnikViewModel(CaptureElement previewControl)
         {
 
-            eksterniServis = new ExterniServis();
+       //     eksterniServis = new ExterniServis();
             // CreateUposlenik = new Uposlenik();
 
             Camera = new CameraHelper(previewControl);
             Camera.InitializeCameraAsync();
             // DodajUposlenika = new RelayCommand<object>(dodajUposlenika, (object parametar) => true);
-            Uslikaj = new RelayCommand(uslikaj, (object parametar) => true);
+            Uslikaj = new RelayCommand<object>(uslikaj, (object parametar) => true);
 
         }
 
