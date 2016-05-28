@@ -85,7 +85,7 @@ namespace JobRadar.JobRadarBaza.ViewModels
     }
 
 
-    class KorisnikViewModel:INotifyPropertyChanged
+    public class KorisnikViewModel:INotifyPropertyChanged
     {
         
       //  public Korisnik CreateUposlenik { get; set; }
@@ -106,8 +106,7 @@ namespace JobRadar.JobRadarBaza.ViewModels
                 OnNotifyPropertyChanged("Slika");
             }
         }
-
-
+     
         CaptureElement previewControl;
         public KorisnikViewModel(CaptureElement previewControl)
         {
@@ -135,10 +134,10 @@ namespace JobRadar.JobRadarBaza.ViewModels
          }*/
 
 
-
         public void SlikanjeGotovo(SoftwareBitmapSource slikica)
         {
             Slika = slikica;
+           
         }
        
         public event PropertyChangedEventHandler PropertyChanged;

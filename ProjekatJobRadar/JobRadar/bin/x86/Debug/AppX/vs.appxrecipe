@@ -22,13 +22,13 @@
     <AppXManifest Include="C:\Users\HP\Desktop\GIT\So far So good\ProjekatJobRadar\JobRadar\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-05-28T19:29:46.794</Modified>
+      <Modified>2016-05-28T21:10:35.584</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\HP\Desktop\GIT\So far So good\ProjekatJobRadar\JobRadar\bin\x86\Debug\JobRadar.exe">
       <PackagePath>entrypoint\JobRadar.exe</PackagePath>
-      <Modified>2016-05-28T19:29:45.451</Modified>
+      <Modified>2016-05-28T21:10:34.306</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HP\.nuget\packages\EntityFramework.Core\7.0.0-beta6\lib\dotnet\EntityFramework.Core.dll">
       <PackagePath>EntityFramework.Core.dll</PackagePath>
@@ -602,11 +602,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HP\Desktop\GIT\So far So good\ProjekatJobRadar\JobRadar\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2016-05-28T19:29:46.513</Modified>
+      <Modified>2016-05-28T21:10:35.304</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HP\Desktop\GIT\So far So good\ProjekatJobRadar\JobRadar\bin\x86\Debug\Core\JobRadar.exe">
       <PackagePath>JobRadar.exe</PackagePath>
-      <Modified>2016-05-28T19:29:46.786</Modified>
+      <Modified>2016-05-28T21:10:35.579</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
