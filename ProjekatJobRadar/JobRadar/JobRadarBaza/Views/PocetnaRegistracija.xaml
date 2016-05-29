@@ -37,7 +37,7 @@
             <Button x:Name="btnRegistracijaKorisnika" Content="Looking for a job" Height="50" Width="200" FontSize="22" Margin="0,150,0,0" Foreground="White" Click="btnRegistracijaKorisnika_Click" Background="#FFC17922"/>
             <Button Click="btnRegistracijaKompanije_Click" x:Name="btnRegistracijaKompanije" Content="Hire" Margin="0,20,0,0" Width="200" Height="50" FontSize="22" Foreground="White" Background="#FFC17922"/>
         </StackPanel>
-        <Image x:Name="image1" Source="/Assets/LOGO2.png" HorizontalAlignment="Left" Height="122" Margin="1158,10,0,0" VerticalAlignment="Top" Width="122"/>
+        <Image x:Name="image1" Source="/Assets/LOGO2.png" HorizontalAlignment="Right" Height="122" Margin="10,10,0,10" VerticalAlignment="Top" Width="122"/>
 
     </Grid>
 </Page>
