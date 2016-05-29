@@ -41,6 +41,11 @@
         <Image x:Name="image1" Source="/Assets/LOGO2.png" HorizontalAlignment="Right" Height="122" Margin="0,10,0,0" VerticalAlignment="Top" Width="122"/>
         <HyperlinkButton Content="Konkurs1" HorizontalAlignment="Left" Height="30" Margin="400,304,0,0" VerticalAlignment="Top" Width="161"/>
         <HyperlinkButton Content="Konkurs2" HorizontalAlignment="Left" Height="30" Margin="400,334,0,0" VerticalAlignment="Top" Width="161"/>
+        <Button x:Name="DodajKonkursbtn" Content="Add a job offer" HorizontalAlignment="Left" Margin="450,422,0,0" VerticalAlignment="Top" Foreground="#FFF7F7F7" Click="DodajKonkursbtn_Click">
+            <Button.Background>
+                <SolidColorBrush Color="{StaticResource Zuta}"/>
+            </Button.Background>
+        </Button>
 
     </Grid>
 </Page>

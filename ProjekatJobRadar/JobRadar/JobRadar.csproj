@@ -117,6 +117,12 @@
     <Compile Include="JobRadarBaza\Views\PocetnaRegistracija.xaml.cs">
       <DependentUpon>PocetnaRegistracija.xaml</DependentUpon>
     </Compile>
+    <Compile Include="JobRadarBaza\Views\ProfilNezaposlenog.xaml.cs">
+      <DependentUpon>ProfilNezaposlenog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="JobRadarBaza\Views\ProfilPoslodavca.xaml.cs">
+      <DependentUpon>ProfilPoslodavca.xaml</DependentUpon>
+    </Compile>
     <Compile Include="JobRadarBaza\Views\Registracija2Forma.xaml.cs">
       <DependentUpon>Registracija2Forma.xaml</DependentUpon>
     </Compile>
