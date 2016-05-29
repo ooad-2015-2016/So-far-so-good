@@ -22,13 +22,13 @@
     <AppXManifest Include="C:\Users\HP\Desktop\GIT\GITmapa\ProjekatJobRadar\JobRadar\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-05-29T14:42:03.095</Modified>
+      <Modified>2016-05-29T21:56:53.093</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\HP\Desktop\GIT\GITmapa\ProjekatJobRadar\JobRadar\bin\x86\Debug\JobRadar.exe">
       <PackagePath>entrypoint\JobRadar.exe</PackagePath>
-      <Modified>2016-05-29T14:41:43.569</Modified>
+      <Modified>2016-05-29T21:56:51.526</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HP\.nuget\packages\EntityFramework.Core\7.0.0-beta6\lib\dotnet\EntityFramework.Core.dll">
       <PackagePath>EntityFramework.Core.dll</PackagePath>
@@ -594,7 +594,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HP\Desktop\GIT\GITmapa\ProjekatJobRadar\JobRadar\bin\x86\Debug\JobRadar.xr.xml">
       <PackagePath>JobRadar.xr.xml</PackagePath>
-      <Modified>2016-05-29T13:44:58.429</Modified>
+      <Modified>2016-05-29T21:55:49.814</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -602,11 +602,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HP\Desktop\GIT\GITmapa\ProjekatJobRadar\JobRadar\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2016-05-29T14:41:58.996</Modified>
+      <Modified>2016-05-29T21:56:52.571</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HP\Desktop\GIT\GITmapa\ProjekatJobRadar\JobRadar\bin\x86\Debug\Core\JobRadar.exe">
       <PackagePath>JobRadar.exe</PackagePath>
-      <Modified>2016-05-29T14:42:03.061</Modified>
+      <Modified>2016-05-29T21:56:53.088</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

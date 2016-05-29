@@ -2743,3 +2743,13 @@ C:\Users\HP\Desktop\GIT\GITmapa\ProjekatJobRadar\JobRadar\obj\x86\Debug\JobRadar
 C:\Users\HP\Desktop\GIT\GITmapa\ProjekatJobRadar\JobRadar\obj\x86\Debug\JobRadarBaza\Views\UnosKonkursa.g.cs
 C:\Users\HP\Desktop\GIT\GITmapa\ProjekatJobRadar\JobRadar\obj\x86\Debug\JobRadarBaza\Views\UnosKonkursa.xaml
 C:\Users\HP\Desktop\GIT\GITmapa\ProjekatJobRadar\JobRadar\obj\x86\Debug\JobRadarBaza\Views\UnosKonkursa.xbf
+C:\Users\HP\Desktop\GIT\GITmapa\ProjekatJobRadar\JobRadar\bin\x86\Debug\JobRadarBaza\Views\PregledKonkursa.xbf
+C:\Users\HP\Desktop\GIT\GITmapa\ProjekatJobRadar\JobRadar\obj\x86\Debug\JobRadarBaza\Views\PregledKonkursa.g.i.cs
+C:\Users\HP\Desktop\GIT\GITmapa\ProjekatJobRadar\JobRadar\obj\x86\Debug\JobRadarBaza\Views\PregledKonkursa.g.cs
+C:\Users\HP\Desktop\GIT\GITmapa\ProjekatJobRadar\JobRadar\obj\x86\Debug\JobRadarBaza\Views\PregledKonkursa.xaml
+C:\Users\HP\Desktop\GIT\GITmapa\ProjekatJobRadar\JobRadar\obj\x86\Debug\JobRadarBaza\Views\PregledKonkursa.xbf
+C:\Users\HP\Desktop\GIT\GITmapa\ProjekatJobRadar\JobRadar\obj\x86\Debug\JobRadarBaza\Views\HomePage.g.i.cs
+C:\Users\HP\Desktop\GIT\GITmapa\ProjekatJobRadar\JobRadar\obj\x86\Debug\JobRadarBaza\Views\HomePage.g.cs
+C:\Users\HP\Desktop\GIT\GITmapa\ProjekatJobRadar\JobRadar\obj\x86\Debug\JobRadarBaza\Views\HomePage.xaml
+C:\Users\HP\Desktop\GIT\GITmapa\ProjekatJobRadar\JobRadar\obj\x86\Debug\JobRadarBaza\Views\HomePage.xbf
+C:\Users\HP\Desktop\GIT\GITmapa\ProjekatJobRadar\JobRadar\bin\x86\Debug\JobRadarBaza\Views\HomePage.xbf

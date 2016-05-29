@@ -106,8 +106,12 @@
     <Compile Include="JobRadarBaza\Models\DefaultPodaci.cs" />
     <Compile Include="JobRadarBaza\Models\Lokacija.cs" />
     <Compile Include="JobRadarBaza\Models\Poslodavac.cs" />
+    <Compile Include="JobRadarBaza\ViewModels\HomePageViewModel.cs" />
     <Compile Include="JobRadarBaza\ViewModels\KorisnikViewModel.cs" />
     <Compile Include="JobRadarBaza\ViewModels\LoginViewModel.cs" />
+    <Compile Include="JobRadarBaza\Views\HomePage.xaml.cs">
+      <DependentUpon>HomePage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="JobRadarBaza\Views\LogInForma.xaml.cs">
       <DependentUpon>LogInForma.xaml</DependentUpon>
     </Compile>
@@ -116,6 +120,9 @@
     </Compile>
     <Compile Include="JobRadarBaza\Views\PocetnaRegistracija.xaml.cs">
       <DependentUpon>PocetnaRegistracija.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="JobRadarBaza\Views\PregledKonkursa.xaml.cs">
+      <DependentUpon>PregledKonkursa.xaml</DependentUpon>
     </Compile>
     <Compile Include="JobRadarBaza\Views\ProfilNezaposlenog.xaml.cs">
       <DependentUpon>ProfilNezaposlenog.xaml</DependentUpon>
@@ -177,6 +184,10 @@
     <Folder Include="Forme\" />
   </ItemGroup>
   <ItemGroup>
+    <Page Include="JobRadarBaza\Views\HomePage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="JobRadarBaza\Views\LogInForma.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -186,6 +197,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="JobRadarBaza\Views\PocetnaRegistracija.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="JobRadarBaza\Views\PregledKonkursa.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

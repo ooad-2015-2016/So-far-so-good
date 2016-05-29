@@ -1,7 +1,9 @@
 App.xbf
+JobRadarBaza\Views\HomePage.xbf
 JobRadarBaza\Views\LogInForma.xbf
 JobRadarBaza\Views\Pocetna.xbf
 JobRadarBaza\Views\PocetnaRegistracija.xbf
+JobRadarBaza\Views\PregledKonkursa.xbf
 JobRadarBaza\Views\ProfilNezaposlenog.xbf
 JobRadarBaza\Views\ProfilPoslodavca.xbf
 JobRadarBaza\Views\Registracija2Forma.xbf

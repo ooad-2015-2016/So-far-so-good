@@ -9,10 +9,10 @@ using Windows.UI.Popups;
 
 namespace JobRadar.JobRadarBaza.ViewModels
 {
-    class LoginViewModel
+    public class LoginViewModel
     {
-        public string Username { get; set; }
-        public string Password { get; set; }
+        //public string Username { get; set; }
+        //public string Password { get; set; }
         public Korisnik Korisnik { get; set; }
         public ICommand LoginKorisnik { get; set; }
 
@@ -21,7 +21,7 @@ namespace JobRadar.JobRadarBaza.ViewModels
             //LoginKorisnik = new RelayCommand<object>(loginKorisnik, true);
         }
 
-        private async void loginKorisnik(object obj)
+        public async void loginKorisnik(string Username, string Password)
         {
             if (Username == "" || Password == "")
             {
@@ -30,6 +30,18 @@ namespace JobRadar.JobRadarBaza.ViewModels
             }
 
             //provjera postoji li u bazi, ako postoji->otvori Home
+
+            // var korisnik = JobRadarDBContext
+            //DataSourceMenuMD.ProvjeraKorisnika(korisnickoIme, sifra);
+            /*if (korisnik != null && korisnik.KorisnikId > 0)
+            {
+                this.Frame.Navigate(typeof(HomePage), korisnik);
+            }
+            else
+            {
+                var dialog = new MessageDialog  ("Pogrešno korisničko ime/šifra!","Neuspješna prijava");
+                await dialog.ShowAsync();
+            }*/
 
         }
     }

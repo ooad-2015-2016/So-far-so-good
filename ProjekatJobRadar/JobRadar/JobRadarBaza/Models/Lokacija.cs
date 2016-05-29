@@ -20,7 +20,7 @@ namespace JobRadar.JobRadarBaza.Models
         [DataMember]
         private string Drzava { get; set; }
         [DataMember]
-        private string Grad { get; set; }
+        public string Grad { get; set; }
         [DataMember]
         private string Adresa { get; set; }
         [DataMember]

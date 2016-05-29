@@ -18,11 +18,11 @@ namespace JobRadar.JobRadarBaza.Models
         [DataMember]
         private int ID { get; set; }
         [DataMember]
-        private string NazivKonkursa;
+        public string NazivKonkursa;
         [DataMember]
         private DateTime datumObjave;
         [DataMember]
-        private DateTime datumIsteka;
+        public DateTime datumIsteka;
         //fali
         public int LokacijaId { get; set; }
         [ForeignKey("LokacijaId")]
