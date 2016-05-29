@@ -9,14 +9,12 @@ using System.Threading.Tasks;
 
 namespace JobRadar.JobRadarBaza.Models
 {
-    [DataContract]
     public class Poslodavac:Korisnik
     {
-        [DataMember]
+        [Key]
+        private int ID { get; set; }
         private string nazivPoslodavca { get; set; }
-        [DataMember]
         private string opis { get; set; }
-        [DataMember]
         private Lokacija lokacija { get; set; }
         private List<Konkurs> konkursi { get; set; }
 

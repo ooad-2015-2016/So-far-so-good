@@ -33,11 +33,13 @@ namespace JobRadar
         {
             this.InitializeComponent();
             this.Suspending += OnSuspending;
-/*            using (var db = new LokacijaDbContext())
+            using (var db = new JobRadarDBContext())
             {
+                db.Database.EnsureDeleted();
+              
                 db.Database.ApplyMigrations();
                 DefaultPodaci.Initialize(db);
-            }*/
+            }
         }
 
         /// <summary>

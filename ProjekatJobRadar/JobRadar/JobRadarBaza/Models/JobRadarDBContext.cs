@@ -14,8 +14,7 @@ namespace JobRadar.JobRadarBaza.Models
     class JobRadarDBContext:DbContext
     {
         public DbSet<Konkurs> Konkursi { get; set; }
-        public DbSet<OsobaKojaTraziPosao> OsobaKojaTraziPosao { get; set; }
-        public DbSet<Lokacija> Lokacija { get; set; }
+        public DbSet<Poslodavac> Poslodavac { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

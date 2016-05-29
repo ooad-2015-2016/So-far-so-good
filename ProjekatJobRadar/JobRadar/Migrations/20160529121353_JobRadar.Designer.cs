@@ -7,11 +7,11 @@ using JobRadar.JobRadarBaza.Models;
 namespace JobRadarMigrations
 {
     [ContextType(typeof(JobRadarDBContext))]
-    partial class InitialMigration
+    partial class JobRadar
     {
         public override string Id
         {
-            get { return "20160503124309_InitialMigration"; }
+            get { return "20160529121353_JobRadar"; }
         }
 
         public override string ProductVersion
@@ -30,6 +30,8 @@ namespace JobRadarMigrations
                         .ValueGeneratedOnAdd();
 
                     b.Property<int>("LokacijaId");
+
+                    b.Property<int?>("PoslodavacID");
 
                     b.Key("ID");
                 });
@@ -54,7 +56,7 @@ namespace JobRadarMigrations
                     b.Key("LokacijaId");
                 });
 
-            builder.Entity("JobRadar.JobRadarBaza.Models.OsobaKojaTraziPosao", b =>
+            builder.Entity("JobRadar.JobRadarBaza.Models.Poslodavac", b =>
                 {
                     b.Property<int>("ID")
                         .ValueGeneratedOnAdd();
@@ -63,25 +65,35 @@ namespace JobRadarMigrations
 
                     b.Property<DateTime>("datumRegistracije");
 
-                    b.Property<DateTime>("datumRodjenja");
-
                     b.Property<string>("email");
 
-                    b.Property<DateTime>("godinaZavrsetkaObrazovanja");
+                    b.Property<int?>("lokacijaLokacijaId");
 
-                    b.Property<string>("ime");
+                    b.Property<string>("nazivPoslodavca");
+
+                    b.Property<string>("opis");
 
                     b.Property<DateTime>("posljednjaAktivnost");
-
-                    b.Property<string>("prezime");
 
                     b.Property<string>("userName");
 
                     b.Property<bool>("zabranjenPristup");
 
-                    b.Property<bool>("zaposlen");
-
                     b.Key("ID");
+                });
+
+            builder.Entity("JobRadar.JobRadarBaza.Models.Konkurs", b =>
+                {
+                    b.Reference("JobRadar.JobRadarBaza.Models.Poslodavac")
+                        .InverseCollection()
+                        .ForeignKey("PoslodavacID");
+                });
+
+            builder.Entity("JobRadar.JobRadarBaza.Models.Poslodavac", b =>
+                {
+                    b.Reference("JobRadar.JobRadarBaza.Models.Lokacija")
+                        .InverseCollection()
+                        .ForeignKey("lokacijaLokacijaId");
                 });
         }
     }

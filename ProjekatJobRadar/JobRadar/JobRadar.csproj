@@ -129,9 +129,9 @@
     <Compile Include="JobRadarBaza\Views\RegistracijaPoslodavca.xaml.cs">
       <DependentUpon>RegistracijaPoslodavca.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\20160503124309_InitialMigration.cs" />
-    <Compile Include="Migrations\20160503124309_InitialMigration.designer.cs">
-      <DependentUpon>20160503124309_InitialMigration.cs</DependentUpon>
+    <Compile Include="Migrations\20160529121353_JobRadar.cs" />
+    <Compile Include="Migrations\20160529121353_JobRadar.designer.cs">
+      <DependentUpon>20160529121353_JobRadar.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\JobRadarDBContextModelSnapshot.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

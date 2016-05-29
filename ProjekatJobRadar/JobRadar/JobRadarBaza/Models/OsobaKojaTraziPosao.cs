@@ -13,6 +13,8 @@ namespace JobRadar.JobRadarBaza.Models
     [DataContract]
     public class OsobaKojaTraziPosao:Korisnik
     {
+        [Key]
+        private int id { get; set; }
         [DataMember]
         private string ime { get; set; }
         [DataMember]
