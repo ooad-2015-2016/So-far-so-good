@@ -129,6 +129,9 @@
     <Compile Include="JobRadarBaza\Views\RegistracijaPoslodavca.xaml.cs">
       <DependentUpon>RegistracijaPoslodavca.xaml</DependentUpon>
     </Compile>
+    <Compile Include="JobRadarBaza\Views\UnosKonkursa.xaml.cs">
+      <DependentUpon>UnosKonkursa.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\20160529121353_JobRadar.cs" />
     <Compile Include="Migrations\20160529121353_JobRadar.designer.cs">
       <DependentUpon>20160529121353_JobRadar.cs</DependentUpon>
@@ -203,6 +206,10 @@
     <Page Include="JobRadarBaza\Views\RegistracijaPoslodavca.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="JobRadarBaza\Views\UnosKonkursa.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="MainPage.xaml">
       <SubType>Designer</SubType>

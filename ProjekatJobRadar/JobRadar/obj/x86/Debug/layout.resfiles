@@ -1,3 +1,6 @@
+WinMetadata\Windows.winmd
+EntityFramework.Commands.dll
+EntityFramework.Commands.xml
 Assets\korisnik.png
 Assets\LockScreenLogo.scale-200.png
 Assets\LOGO2.png
@@ -13,6 +16,3 @@ Assets\StoreLogo.png
 Assets\Wide310x150Logo.scale-200.png
 JobRadar.xr.xml
 Properties\Default.rd.xml
-WinMetadata\Windows.winmd
-EntityFramework.Commands.dll
-EntityFramework.Commands.xml

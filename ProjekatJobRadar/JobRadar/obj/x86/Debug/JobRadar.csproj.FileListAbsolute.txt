@@ -2732,3 +2732,14 @@ C:\OOAD\ProjekatJobRadar\JobRadar\obj\x86\Debug\qualifiers.txt
 C:\OOAD\ProjekatJobRadar\JobRadar\obj\x86\Debug\qualifiers.txt.intermediate
 C:\OOAD\ProjekatJobRadar\JobRadar\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\OOAD\ProjekatJobRadar\JobRadar\obj\x86\Debug\ProjectArchitectures.txt
+C:\Users\HP\Desktop\GIT\GITmapa\ProjekatJobRadar\JobRadar\bin\x86\Debug\JobRadarBaza\Views\RegistracijaPoslodavca.xbf
+C:\Users\HP\Desktop\GIT\GITmapa\ProjekatJobRadar\JobRadar\bin\x86\Debug\Newtonsoft.Json.dll
+C:\Users\HP\Desktop\GIT\GITmapa\ProjekatJobRadar\JobRadar\obj\x86\Debug\JobRadarBaza\Views\RegistracijaPoslodavca.g.i.cs
+C:\Users\HP\Desktop\GIT\GITmapa\ProjekatJobRadar\JobRadar\obj\x86\Debug\JobRadarBaza\Views\RegistracijaPoslodavca.g.cs
+C:\Users\HP\Desktop\GIT\GITmapa\ProjekatJobRadar\JobRadar\obj\x86\Debug\JobRadarBaza\Views\RegistracijaPoslodavca.xaml
+C:\Users\HP\Desktop\GIT\GITmapa\ProjekatJobRadar\JobRadar\obj\x86\Debug\JobRadarBaza\Views\RegistracijaPoslodavca.xbf
+C:\Users\HP\Desktop\GIT\GITmapa\ProjekatJobRadar\JobRadar\bin\x86\Debug\JobRadarBaza\Views\UnosKonkursa.xbf
+C:\Users\HP\Desktop\GIT\GITmapa\ProjekatJobRadar\JobRadar\obj\x86\Debug\JobRadarBaza\Views\UnosKonkursa.g.i.cs
+C:\Users\HP\Desktop\GIT\GITmapa\ProjekatJobRadar\JobRadar\obj\x86\Debug\JobRadarBaza\Views\UnosKonkursa.g.cs
+C:\Users\HP\Desktop\GIT\GITmapa\ProjekatJobRadar\JobRadar\obj\x86\Debug\JobRadarBaza\Views\UnosKonkursa.xaml
+C:\Users\HP\Desktop\GIT\GITmapa\ProjekatJobRadar\JobRadar\obj\x86\Debug\JobRadarBaza\Views\UnosKonkursa.xbf

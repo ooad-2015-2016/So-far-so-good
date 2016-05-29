@@ -33,6 +33,8 @@ namespace JobRadar.JobRadarBaza.Models
         [DataMember]
         private bool aktivan;
         [DataMember]
+        private string opis;
+        [DataMember]
         private int brojPregleda;
 
         public Konkurs(string NazivKonkursa, DateTime datumObjave, DateTime datumIsteka, Lokacija lokacija, bool vidljiv)

@@ -9,13 +9,12 @@ using Windows.UI.Xaml.Navigation;
 
 namespace JobRadar
 {
-    public partial class RegistracijaPoslodavca:Page
+    public partial class UnosKonkursa:Page
     {
-
-        public RegistracijaPoslodavca()
+        public UnosKonkursa()
         {
             this.InitializeComponent();
-            
+            //DataContext
             NavigationCacheMode = NavigationCacheMode.Required;
         }
 
@@ -24,13 +23,6 @@ namespace JobRadar
             var currentView = SystemNavigationManager.GetForCurrentView();
             currentView.AppViewBackButtonVisibility = AppViewBackButtonVisibility.Collapsed;
         }
-
-        private void btnRegisterPoslodavac_Click(object sender, Windows.UI.Xaml.RoutedEventArgs e)
-        {
-           
-        }
-
-
 
     }
 }

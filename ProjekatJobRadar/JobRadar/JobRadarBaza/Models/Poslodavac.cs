@@ -13,7 +13,7 @@ namespace JobRadar.JobRadarBaza.Models
     {
         [Key]
         private int ID { get; set; }
-        private string nazivPoslodavca { get; set; }
+        public string nazivPoslodavca { get; set; }
         private string opis { get; set; }
         private Lokacija lokacija { get; set; }
         private List<Konkurs> konkursi { get; set; }
