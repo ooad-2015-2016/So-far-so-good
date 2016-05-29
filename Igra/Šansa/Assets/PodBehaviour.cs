@@ -4,13 +4,10 @@ using System.Collections;
 public class PodBehaviour : MonoBehaviour {
 
     public GameObject[] objekti;
+    GameObject gameO;
     public int brojSpawna = 1;
     // Use this for initialization
     void Start () {
-        objekti = new GameObject[3];/*
-        objekti[0] = GameObject.FindGameObjectWithTag("kamen");
-        objekti[1] = GameObject.FindGameObjectWithTag("novcic");
-        objekti[2] = GameObject.FindGameObjectWithTag("cigla");*/
 
     }
 	
@@ -24,14 +21,18 @@ public class PodBehaviour : MonoBehaviour {
         
         if (col.gameObject.gameObject.tag == "kamen")
         {
+            gameO = Instantiate(col.gameObject.gameObject, new Vector3(Random.Range(-4.5f, 4f), 6.5f, 0), Quaternion.identity) as GameObject;
             Destroy(col.collider.gameObject);
+
         }
         if(col.gameObject.gameObject.tag =="novcic")
         {
+            gameO = Instantiate(col.gameObject.gameObject, new Vector3(Random.Range(-4.5f, 4f), 6.5f, 0), Quaternion.identity) as GameObject;
             Destroy(col.collider.gameObject);
         }
         if(col.gameObject.gameObject.tag == "cigla")
         {
+            gameO = Instantiate(col.collider.gameObject, new Vector3(Random.Range(-4.5f, 4f), 6.5f, 0), Quaternion.identity) as GameObject;
             Destroy(col.collider.gameObject);
         }
         

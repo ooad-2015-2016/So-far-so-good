@@ -11,5 +11,15 @@ namespace Assets.Classes
         {
 
         }
+
+        public int getDamage()
+        {
+            return base.damage;
+        }
+
+        public void setDamage(int dmg)
+        {
+            base.damage = dmg;
+        }
     }
 }
