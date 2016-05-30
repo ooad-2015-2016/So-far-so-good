@@ -22,13 +22,13 @@
     <AppXManifest Include="D:\ooad\ProjekatJobRadar\JobRadar\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-05-29T23:28:27.979</Modified>
+      <Modified>2016-05-30T00:04:53.716</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\ooad\ProjekatJobRadar\JobRadar\bin\x86\Debug\JobRadar.exe">
       <PackagePath>entrypoint\JobRadar.exe</PackagePath>
-      <Modified>2016-05-29T23:28:25.764</Modified>
+      <Modified>2016-05-30T00:04:52.921</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ervin\.nuget\packages\EntityFramework.Core\7.0.0-beta6\lib\dotnet\EntityFramework.Core.dll">
       <PackagePath>EntityFramework.Core.dll</PackagePath>
@@ -594,7 +594,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\ooad\ProjekatJobRadar\JobRadar\bin\x86\Debug\JobRadar.xr.xml">
       <PackagePath>JobRadar.xr.xml</PackagePath>
-      <Modified>2016-05-29T23:22:05.491</Modified>
+      <Modified>2016-05-30T00:04:52.498</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -602,11 +602,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\ooad\ProjekatJobRadar\JobRadar\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2016-05-29T23:28:27.595</Modified>
+      <Modified>2016-05-30T00:04:53.515</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\ooad\ProjekatJobRadar\JobRadar\bin\x86\Debug\Core\JobRadar.exe">
       <PackagePath>JobRadar.exe</PackagePath>
-      <Modified>2016-05-29T23:28:27.975</Modified>
+      <Modified>2016-05-30T00:04:53.713</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
