@@ -30,8 +30,8 @@ public class LikBehaviour : MonoBehaviour {
     void Start()
     {
         lik = new Lik(zivoti, health, brzina);
-        cigla = new Cigla("cigla", -5);
-        kamen = new Kamen("kamen", -10);
+        cigla = new Cigla("cigla", -50);
+        kamen = new Kamen("kamen", -20);
         novac = new Novac("novac", 10);
         textScore.text = "Poeni: 0";
 
@@ -74,7 +74,7 @@ public class LikBehaviour : MonoBehaviour {
                 desno = false;
             }
         }
-        textScore.text = "Poeni: " + lik.getPoeni();
+        textScore.text = "Score: " + lik.getPoeni();
         textHealth.text = "Health: " + lik.getHealth();
         textLives.text = "Lives: " + lik.getLives();
     }
