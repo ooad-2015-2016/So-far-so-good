@@ -4,7 +4,7 @@ using System.Collections;
 using Assets.Classes;
 
 public class LikBehaviour : MonoBehaviour {
-    Lik lik;
+    public Lik lik;
     Cigla cigla;
     Kamen kamen;
     Novac novac;
