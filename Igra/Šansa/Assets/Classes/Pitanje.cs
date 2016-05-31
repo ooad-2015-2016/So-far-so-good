@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Assets.Classes
 {
-    class Pitanje
+    public class Pitanje
     {
         private string pitanjeA;
         private Odgovori odgovori;
@@ -23,15 +23,20 @@ namespace Assets.Classes
             }
         }
 
-        public Pitanje(String pitanje, List<String> odg)
+        public Pitanje(String pitanje, List<String> odg, String tacanOdgovor)
         {
             this.PitanjeA = pitanjeA;
-            odgovori = new Odgovori(odg);
+            odgovori = new Odgovori(odg,tacanOdgovor);
         }
 
         public List<String> getOdgovori()
         {
             return odgovori.getOdgovori();
+        }
+
+        public String getTacanOdgovor()
+        {
+            return odgovori.getTacanOdgovor();
         }
     }
 }

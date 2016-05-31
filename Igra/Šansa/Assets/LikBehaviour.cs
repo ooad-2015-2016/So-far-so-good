@@ -14,23 +14,29 @@ public class LikBehaviour : MonoBehaviour {
     public Text textLives;
 
     public int zivoti = 3;
-    public float brzina = 3f;
+    public float brzina = 4f;
     public float pomak = 0.0001f;
     public int health = 100;
     public int poeni = 0;
     public int brojUnistenihObjekata;
     public int brojSpawn = 1;
+
+    public Canvas gameOver;
+    public Canvas kviz;
+
+
     bool desno = true;
     // Use this for initialization
     void Start()
     {
         lik = new Lik(zivoti, health, brzina);
-        cigla = new Cigla("cigla", -10);
+        cigla = new Cigla("cigla", -5);
         kamen = new Kamen("kamen", -10);
         novac = new Novac("novac", 10);
         textScore.text = "Poeni: 0";
-      
 
+        gameOver.enabled = false;
+        kviz.enabled = false;  
         Vector2 pocetnaPozicija = this.transform.position;
         pocetnaPozicija.x = 0;
         pocetnaPozicija.y = -4.1f;
@@ -47,7 +53,7 @@ public class LikBehaviour : MonoBehaviour {
         if (Input.GetKey(KeyCode.RightArrow))
         {
             Vector2 newPosition = this.transform.position;
-            newPosition.x += lik.getSpeed() * Time.deltaTime+pomak;
+            newPosition.x += lik.getSpeed() * Time.deltaTime*4;
             this.transform.position = newPosition;
             if (!desno)
             {
@@ -59,7 +65,7 @@ public class LikBehaviour : MonoBehaviour {
         if (Input.GetKey(KeyCode.LeftArrow))
         {
             Vector2 newPosition = this.transform.position;
-            newPosition.x -= lik.getSpeed() * Time.deltaTime + pomak;
+            newPosition.x -= lik.getSpeed() * Time.deltaTime*4;
             this.transform.position = newPosition;
 
             if (desno)
@@ -99,12 +105,17 @@ public class LikBehaviour : MonoBehaviour {
 
         }
 
+        if(poeni == 100)
+        {
+            
+        }
 
-        if(lik.getHealth() == 0)
+        if(lik.getHealth() <= 0)
         {
             if(lik.umro())
             {
-                //game over
+                gameOver.enabled = true;
+                Time.timeScale = 0;
             } else
             {
                 lik.setHealth(100);
@@ -112,9 +123,21 @@ public class LikBehaviour : MonoBehaviour {
         }
         
     }
+
     public float getBrzina()
     {
         return brzina;
+    }
+
+    public void quit()
+    {
+        Application.Quit();
+    }
+
+    public void startNew()
+    {
+        Time.timeScale = 1;
+        Application.LoadLevel(0);
     }
 
 }

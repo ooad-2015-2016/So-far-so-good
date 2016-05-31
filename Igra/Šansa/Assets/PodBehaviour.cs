@@ -21,18 +21,18 @@ public class PodBehaviour : MonoBehaviour {
         
         if (col.gameObject.gameObject.tag == "kamen")
         {
-            gameO = Instantiate(col.gameObject.gameObject, new Vector3(Random.Range(-4.5f, 4f), 6.5f, 0), Quaternion.identity) as GameObject;
+            gameO = Instantiate(col.gameObject.gameObject, new Vector3(Random.Range(-8.2f, 8.2f), 6.5f, 0), Quaternion.identity) as GameObject;
             Destroy(col.collider.gameObject);
 
         }
         if(col.gameObject.gameObject.tag =="novcic")
         {
-            gameO = Instantiate(col.gameObject.gameObject, new Vector3(Random.Range(-4.5f, 4f), 6.5f, 0), Quaternion.identity) as GameObject;
+            gameO = Instantiate(col.gameObject.gameObject, new Vector3(Random.Range(-8.2f, 8.2f), 6.5f, 0), Quaternion.identity) as GameObject;
             Destroy(col.collider.gameObject);
         }
         if(col.gameObject.gameObject.tag == "cigla")
         {
-            gameO = Instantiate(col.collider.gameObject, new Vector3(Random.Range(-4.5f, 4f), 6.5f, 0), Quaternion.identity) as GameObject;
+            gameO = Instantiate(col.collider.gameObject, new Vector3(Random.Range(-8.2f, 8.2f), 6.5f, 0), Quaternion.identity) as GameObject;
             Destroy(col.collider.gameObject);
         }
         
