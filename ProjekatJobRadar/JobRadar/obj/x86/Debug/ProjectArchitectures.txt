@@ -1,1 +1,1 @@
-D:\ooad\ProjekatJobRadar\JobRadar\JobRadar.csproj;x86
+C:\Users\HP\Desktop\GIT\So far So good\ProjekatJobRadar\JobRadar\JobRadar.csproj;x86

@@ -24,8 +24,8 @@ namespace JobRadar
         public LogInForma()
         {
             this.InitializeComponent();
-            LoginViewModel logIn = new LoginViewModel();
-            DataContext = parent;
+            
+            DataContext = new LoginViewModel();
 
 
         }
@@ -41,13 +41,8 @@ namespace JobRadar
         {
             this.Frame.Navigate(typeof(PocetnaRegistracija));
         }
-
-        private void btnLogin_Click(object sender, Windows.UI.Xaml.RoutedEventArgs e)
-        {
-
-            parent.loginKorisnik(txtUsername.Text, txtPassword.Password.ToString());
-
-        }
+        
+       
 
     }
 }

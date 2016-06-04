@@ -40,6 +40,7 @@ namespace JobRadarMigrations
                     opis = table.Column(type: "TEXT", nullable: true),
                     posljednjaAktivnost = table.Column(type: "TEXT", nullable: false),
                     userName = table.Column(type: "TEXT", nullable: true),
+                    passwordHash=table.Column(type: "TEXT", nullable: true),
                     zabranjenPristup = table.Column(type: "INTEGER", nullable: false)
                 },
                 constraints: table =>
@@ -52,13 +53,39 @@ namespace JobRadarMigrations
                         referencedColumn: "LokacijaId");
                 });
             migration.CreateTable(
+               name: "OsobaKojaTraziPosao",
+               columns: table => new
+               {
+                   ID = table.Column(type: "INTEGER", nullable: false),
+                    //  .Annotation("Sqlite:Autoincrement", true),
+                    aktiviran = table.Column(type: "INTEGER", nullable: false),
+                   datumRegistracije = table.Column(type: "TEXT", nullable: false),
+                   email = table.Column(type: "TEXT", nullable: true),
+                   
+                   posljednjaAktivnost = table.Column(type: "TEXT", nullable: false),
+                   userName = table.Column(type: "TEXT", nullable: true),
+                   passwordHash = table.Column(type: "TEXT", nullable: true),
+                   zabranjenPristup = table.Column(type: "INTEGER", nullable: false),
+                   ime = table.Column(type: "TEXT", nullable: true),
+                   prezime = table.Column(type: "TEXT", nullable: true),
+                   zaposlen=table.Column(type:"INTEGER",nullable:false),
+                   datumRodjenja = table.Column(type: "TEXT", nullable: false),
+                   godinaZavrsetkaObrazovanja = table.Column(type: "TEXT", nullable: false),
+               },
+               constraints: table =>
+               {
+                   table.PrimaryKey("PK_OsobaKojaTraziPosao", x => x.ID);
+                   
+               });
+            migration.CreateTable(
                 name: "Konkurs",
                 columns: table => new
                 {
                     ID = table.Column(type: "INTEGER", nullable: false),
                   //      .Annotation("Sqlite:Autoincrement", true),
                     LokacijaId = table.Column(type: "INTEGER", nullable: false),
-                    PoslodavacID = table.Column(type: "INTEGER", nullable: true)
+                    PoslodavacID = table.Column(type: "INTEGER", nullable: true),
+                    OsobaKojaTraziPosaoID=table.Column(type: "INTEGER", nullable: true)
                 },
                 constraints: table =>
                 {
@@ -68,13 +95,20 @@ namespace JobRadarMigrations
                         columns: x => x.PoslodavacID,
                         referencedTable: "Poslodavac",
                         referencedColumn: "ID");
-                });
+                
+            table.ForeignKey(
+                        name: "FK_Konkurs_OsobaKojaTraziPosao_OsobaKojaTraziPosaoID",
+                        columns: x => x.OsobaKojaTraziPosaoID,
+                        referencedTable: "OsobaKojaTraziPosao",
+                        referencedColumn: "ID");
+        });
         }
 
         public override void Down(MigrationBuilder migration)
         {
             migration.DropTable("Konkurs");
             migration.DropTable("Poslodavac");
+            migration.DropTable("OsobaKojaTraziPosao");
             migration.DropTable("Lokacija");
         }
     }

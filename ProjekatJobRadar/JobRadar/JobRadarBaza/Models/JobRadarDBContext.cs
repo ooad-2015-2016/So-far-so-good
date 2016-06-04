@@ -15,6 +15,7 @@ namespace JobRadar.JobRadarBaza.Models
     {
         public DbSet<Konkurs> Konkursi { get; set; }
         public DbSet<Poslodavac> Poslodavac { get; set; }
+        public DbSet<OsobaKojaTraziPosao> OsobaKojaTraziPosao { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -30,7 +31,7 @@ namespace JobRadar.JobRadarBaza.Models
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-
+            
         }
     }
 }

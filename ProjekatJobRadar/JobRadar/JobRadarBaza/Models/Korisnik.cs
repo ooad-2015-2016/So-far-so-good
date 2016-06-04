@@ -16,7 +16,7 @@ namespace JobRadar.JobRadarBaza.Models
         [DataMember]
         private int userID { get; set; }
         [DataMember]
-        protected string userName { get; set; }
+        public string userName { get; set; }
         [DataMember]
         protected string email { get; set; }
         [DataMember]
@@ -24,7 +24,7 @@ namespace JobRadar.JobRadarBaza.Models
         [DataMember]
         protected DateTime posljednjaAktivnost { get; set; }
         [DataMember]
-        private string passwordHash { get; set; }
+        public string passwordHash { get; set; }
         [DataMember]
         protected bool aktiviran { get; set; }
         [DataMember]
@@ -37,7 +37,7 @@ namespace JobRadar.JobRadarBaza.Models
             this.email = email;
             this.datumRegistracije = DateTime.Now;
             this.posljednjaAktivnost = DateTime.Now;
-            this.passwordHash = getPwdHash(pwd);
+            this.passwordHash = pwd;
             this.aktiviran = false;
             this.zabranjenPristup = false;
             
