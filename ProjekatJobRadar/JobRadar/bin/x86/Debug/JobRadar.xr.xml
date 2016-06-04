@@ -4,6 +4,12 @@
     <RootPropertyPathName Name="LoginKorisnik" />
     <RootPropertyPathName Name="Password" />
     <RootPropertyPathName Name="Username" />
+    <RootPropertyPathName Name="Dodaj" />
+    <RootPropertyPathName Name="PasswordConfirm" />
+    <RootPropertyPathName Name="EMail" />
+    <RootPropertyPathName Name="DatumRodjenja" />
+    <RootPropertyPathName Name="Prezime" />
+    <RootPropertyPathName Name="Ime" />
     <RootPropertyPathName Name="Slika" />
     <RootPropertyPathName Name="Uslikaj" />
     <RootPropertyPathName Name="Camera" />
@@ -180,6 +186,7 @@
     <RootType FullName="JobRadar.Registracija2Forma" />
     <RootType FullName="Windows.UI.Xaml.Controls.DatePicker">
       <RootProperty Name="Name" />
+      <RootProperty Name="Date" />
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="Margin" />
     </RootType>

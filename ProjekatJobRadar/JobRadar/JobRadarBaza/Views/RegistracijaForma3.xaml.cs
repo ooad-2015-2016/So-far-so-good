@@ -13,6 +13,7 @@ namespace JobRadar
     public partial class Registracija3Forma:Page
     {
         public JobRadarBaza.ViewModels.KorisnikViewModel kwm;
+        static public CaptureElement Control;
         public Registracija3Forma()
         {
             
@@ -21,7 +22,8 @@ namespace JobRadar
             var currentView = SystemNavigationManager.GetForCurrentView();
             currentView.AppViewBackButtonVisibility = AppViewBackButtonVisibility.Visible;
             SystemNavigationManager.GetForCurrentView().BackRequested += ThisPage_BackRequested;
-            kwm = new JobRadarBaza.ViewModels.KorisnikViewModel(PreviewControl);
+            Control = PreviewControl;
+            kwm = new JobRadarBaza.ViewModels.KorisnikViewModel();
             
         }
 

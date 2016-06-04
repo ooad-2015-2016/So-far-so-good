@@ -1,4 +1,5 @@
-﻿using System;
+﻿using JobRadar.JobRadarBaza.ViewModels;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -14,7 +15,7 @@ namespace JobRadar
         public RegistracijaForma()
         {
             this.InitializeComponent();
-            //DataContext
+            DataContext = new KorisnikViewModel();
             NavigationCacheMode = NavigationCacheMode.Required;
         }
 
@@ -23,10 +24,10 @@ namespace JobRadar
             var currentView = SystemNavigationManager.GetForCurrentView();
             currentView.AppViewBackButtonVisibility = AppViewBackButtonVisibility.Collapsed;
         }
-
+        
         private void btnRegister_Click(object sender, Windows.UI.Xaml.RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(Registracija2Forma));
+            //this.Frame.Navigate(typeof(Registracija2Forma));
         }
     }
 }

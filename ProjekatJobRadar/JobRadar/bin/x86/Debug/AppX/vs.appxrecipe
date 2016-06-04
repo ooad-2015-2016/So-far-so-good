@@ -22,13 +22,13 @@
     <AppXManifest Include="C:\Users\HP\Desktop\GIT\So far So good\ProjekatJobRadar\JobRadar\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-06-04T11:54:01.627</Modified>
+      <Modified>2016-06-04T14:46:18.681</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\HP\Desktop\GIT\So far So good\ProjekatJobRadar\JobRadar\bin\x86\Debug\JobRadar.exe">
       <PackagePath>entrypoint\JobRadar.exe</PackagePath>
-      <Modified>2016-06-04T11:53:59.039</Modified>
+      <Modified>2016-06-04T14:46:17.382</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HP\.nuget\packages\EntityFramework.Core\7.0.0-beta6\lib\dotnet\EntityFramework.Core.dll">
       <PackagePath>EntityFramework.Core.dll</PackagePath>
@@ -594,7 +594,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HP\Desktop\GIT\So far So good\ProjekatJobRadar\JobRadar\bin\x86\Debug\JobRadar.xr.xml">
       <PackagePath>JobRadar.xr.xml</PackagePath>
-      <Modified>2016-06-04T11:36:09.959</Modified>
+      <Modified>2016-06-04T14:46:16.718</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -602,11 +602,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HP\Desktop\GIT\So far So good\ProjekatJobRadar\JobRadar\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2016-06-04T11:54:00.208</Modified>
+      <Modified>2016-06-04T14:46:18.393</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HP\Desktop\GIT\So far So good\ProjekatJobRadar\JobRadar\bin\x86\Debug\Core\JobRadar.exe">
       <PackagePath>JobRadar.exe</PackagePath>
-      <Modified>2016-06-04T11:54:01.615</Modified>
+      <Modified>2016-06-04T14:46:18.677</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

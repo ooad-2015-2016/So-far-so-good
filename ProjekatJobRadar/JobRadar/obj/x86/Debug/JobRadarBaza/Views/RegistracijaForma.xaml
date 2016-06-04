@@ -23,25 +23,29 @@
             <ProgressBar Margin="0,100,0,0" VerticalAlignment="Top" Value="33" Background="#33FFFAFA" Foreground="#FFC17922"></ProgressBar>
             <TextBlock Text="progress" Margin="20,0,0,0" Foreground="#FFFBFBFB"></TextBlock >
             <TextBlock Text="First name:" HorizontalAlignment="Center" Margin="0,30,0,0" Foreground="#FFFBFBFB"/>
-            <TextBox x:ConnectionId='2' Width="200" Name="txtFirstName" Margin="0,5,0,0" ></TextBox>
+            <TextBox x:ConnectionId='2' Width="200" Text="{Binding Ime, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Name="txtFirstName" Margin="0,5,0,0" ></TextBox>
 
             <TextBlock Text="Last name:" HorizontalAlignment="Center" Margin="0,5,0,0" Foreground="#FFFBFBFB"/>
-            <TextBox x:ConnectionId='3' Width="200" Name="txtLastName" Margin="0,5,0,0"></TextBox>
+            <TextBox x:ConnectionId='3' Width="200" Name="txtLastName" Text="{Binding Prezime, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Margin="0,5,0,0"></TextBox>
 
             <TextBlock Text="Birth date:" HorizontalAlignment="Center" Margin="0,5,0,0" Foreground="#FFFBFBFB"/>
-            <DatePicker x:ConnectionId='4' Name="dateBirthDate" HorizontalAlignment="Center" Margin="0,5,0,0" ></DatePicker>
+            <DatePicker x:ConnectionId='4' Name="dateBirthDate" Date="{Binding DatumRodjenja, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" HorizontalAlignment="Center" Margin="0,5,0,0" ></DatePicker>
 
             <TextBlock Text="Location:" HorizontalAlignment="Center" Foreground="#FFFBFBFB"></TextBlock>
             <TextBox x:ConnectionId='5' Width="200" Name="txtLocation" Margin="0,5,0,0"></TextBox>
+            <TextBlock Text="E-mail:" HorizontalAlignment="Center" Foreground="#FFFBFBFB"></TextBlock>
+            <TextBox x:ConnectionId='6' Width="200" Name="txtemail" Text="{Binding EMail, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Margin="0,5,0,0"></TextBox>
+
             <TextBlock Text="Username:" HorizontalAlignment="Center" Margin="0,15,0,0" Foreground="#FFFBFBFB"></TextBlock>
-            <TextBox HorizontalAlignment="Center" Width="200" Margin="0,5,0,0"></TextBox>
+            
+            <TextBox x:ConnectionId='7' Name="txtUser" HorizontalAlignment="Center" Text="{Binding Username, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Width="200" Margin="0,5,0,0"></TextBox>
 
             <TextBlock Text="Password:" HorizontalAlignment="Center" Margin="0,5,0,0" Foreground="#FFFBFBFB"></TextBlock>
-            <PasswordBox x:ConnectionId='6' Name="txtPassword" Width="200"></PasswordBox>
+            <PasswordBox x:ConnectionId='8' Name="txtPassword" Password="{Binding Password, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Width="200"></PasswordBox>
 
             <TextBlock Text="Confirm password:" HorizontalAlignment="Center" Margin="0,5,0,0" Foreground="#FFFBFBFB"></TextBlock>
-            <PasswordBox x:ConnectionId='7' Name="txtPasswordConfirm" HorizontalAlignment="Center" Margin="0,5,0,0" Width="200"></PasswordBox>
-            <Button x:ConnectionId='8'                           x:Name="btnRegister" FontSize="20" Width="116" HorizontalAlignment="Center" Margin="0,25,0,0" Foreground="#FFF3F3F3" Height="39" Content="Next" Background="#FFC17922"/>
+            <PasswordBox x:ConnectionId='9' Name="txtPasswordConfirm" Password="{Binding PasswordConfirm, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" HorizontalAlignment="Center" Margin="0,5,0,0" Width="200"></PasswordBox>
+            <Button x:ConnectionId='10'                           Command="{Binding Dodaj}" x:Name="btnRegister" FontSize="20" Width="116" HorizontalAlignment="Center" Margin="0,25,0,0" Foreground="#FFF3F3F3" Height="39" Content="Next" Background="#FFC17922"/>
 
 
         </StackPanel>
