@@ -1,4 +1,5 @@
-﻿using JobRadar.JobRadarBaza.Models;
+﻿using JobRadar.Helper;
+using JobRadar.JobRadarBaza.Models;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -17,7 +18,8 @@ namespace JobRadar.JobRadarBaza.ViewModels
         private string password { get; set; }
         public Korisnik Korisnik { get; set; }
         public ICommand LoginKorisnik { get; set; }
-        
+        public INavigacija NavigationServis { get; set; }
+
 
         public string Username
         {
@@ -51,6 +53,7 @@ namespace JobRadar.JobRadarBaza.ViewModels
 
         public LoginViewModel()
         {
+            NavigationServis = new NavigationService();
             LoginKorisnik = new RelayCommand<object>(loginKorisnik, mozeLi);
             using (var db = new JobRadarDBContext())
             {
@@ -84,7 +87,7 @@ namespace JobRadar.JobRadarBaza.ViewModels
                 var message = new MessageDialog("Podaci nisu tačni!", "Neuspješna prijava");
                 await message.ShowAsync();
             }
-            
+            else NavigationServis.Navigate(typeof(HomePage));
 
         }
     }
