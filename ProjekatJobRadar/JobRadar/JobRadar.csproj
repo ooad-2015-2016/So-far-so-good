@@ -111,6 +111,7 @@
     <Compile Include="JobRadarBaza\ViewModels\HomePageViewModel.cs" />
     <Compile Include="JobRadarBaza\ViewModels\KorisnikViewModel.cs" />
     <Compile Include="JobRadarBaza\ViewModels\LoginViewModel.cs" />
+    <Compile Include="JobRadarBaza\ViewModels\PoslodavacViewModel.cs" />
     <Compile Include="JobRadarBaza\Views\Help.xaml.cs">
       <DependentUpon>Help.xaml</DependentUpon>
     </Compile>

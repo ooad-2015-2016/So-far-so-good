@@ -9,7 +9,7 @@
     <SolutionConfiguration>Debug|x86</SolutionConfiguration>
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>c23362cc-b8bf-4f1b-aef1-839989c258cd</PackageIdentityName>
-    <IntermediateOutputPath>C:\Users\HP\Desktop\GIT\So far So good\ProjekatJobRadar\JobRadar\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\HP\Desktop\GIT\NovaMapa\ProjekatJobRadar\JobRadar\obj\x86\Debug\</IntermediateOutputPath>
     <RegisteredManifestChecksum>73B107019FE8C018F7BF3C7C5024243B9F92CFBABD6A0D084C294D6EFF4F113F</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>c23362cc-b8bf-4f1b-aef1-839989c258cd_1.0.0.0_x86__65z64tg533rat</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>c23362cc-b8bf-4f1b-aef1-839989c258cd_65z64tg533rat!App</RegisteredUserModeAppID>
@@ -19,16 +19,16 @@
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\HP\Desktop\GIT\So far So good\ProjekatJobRadar\JobRadar\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\HP\Desktop\GIT\NovaMapa\ProjekatJobRadar\JobRadar\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-06-05T15:34:58.824</Modified>
+      <Modified>2016-06-05T18:14:12.176</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\HP\Desktop\GIT\So far So good\ProjekatJobRadar\JobRadar\bin\x86\Debug\JobRadar.exe">
+    <AppxPackagedFile Include="C:\Users\HP\Desktop\GIT\NovaMapa\ProjekatJobRadar\JobRadar\bin\x86\Debug\JobRadar.exe">
       <PackagePath>entrypoint\JobRadar.exe</PackagePath>
-      <Modified>2016-06-05T15:34:58.241</Modified>
+      <Modified>2016-06-05T18:14:02.200</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HP\.nuget\packages\EntityFramework.Core\7.0.0-beta6\lib\dotnet\EntityFramework.Core.dll">
       <PackagePath>EntityFramework.Core.dll</PackagePath>
@@ -522,67 +522,67 @@
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
       <Modified>2016-04-24T13:44:19.043</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HP\Desktop\GIT\So far So good\ProjekatJobRadar\JobRadar\Assets\korisnik.png">
+    <AppxPackagedFile Include="C:\Users\HP\Desktop\GIT\NovaMapa\ProjekatJobRadar\JobRadar\Assets\korisnik.png">
       <PackagePath>Assets\korisnik.png</PackagePath>
-      <Modified>2016-06-04T09:50:01.021</Modified>
+      <Modified>2016-06-05T18:07:48.412</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HP\Desktop\GIT\So far So good\ProjekatJobRadar\JobRadar\Assets\LOGO2.png">
+    <AppxPackagedFile Include="C:\Users\HP\Desktop\GIT\NovaMapa\ProjekatJobRadar\JobRadar\Assets\LOGO2.png">
       <PackagePath>Assets\LOGO2.png</PackagePath>
-      <Modified>2016-06-04T09:50:00.884</Modified>
+      <Modified>2016-06-05T18:07:48.368</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HP\Desktop\GIT\So far So good\ProjekatJobRadar\JobRadar\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\HP\Desktop\GIT\NovaMapa\ProjekatJobRadar\JobRadar\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2016-06-04T09:50:00.886</Modified>
+      <Modified>2016-06-05T18:07:48.370</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HP\Desktop\GIT\So far So good\ProjekatJobRadar\JobRadar\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\HP\Desktop\GIT\NovaMapa\ProjekatJobRadar\JobRadar\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-06-04T09:50:01.013</Modified>
+      <Modified>2016-06-05T18:07:48.406</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HP\Desktop\GIT\So far So good\ProjekatJobRadar\JobRadar\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\HP\Desktop\GIT\NovaMapa\ProjekatJobRadar\JobRadar\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-06-04T09:50:01.015</Modified>
+      <Modified>2016-06-05T18:07:48.407</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HP\Desktop\GIT\So far So good\ProjekatJobRadar\JobRadar\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\HP\Desktop\GIT\NovaMapa\ProjekatJobRadar\JobRadar\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-06-04T09:50:01.016</Modified>
+      <Modified>2016-06-05T18:07:48.408</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HP\Desktop\GIT\So far So good\ProjekatJobRadar\JobRadar\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\HP\Desktop\GIT\NovaMapa\ProjekatJobRadar\JobRadar\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-06-04T09:50:01.017</Modified>
+      <Modified>2016-06-05T18:07:48.409</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HP\Desktop\GIT\So far So good\ProjekatJobRadar\JobRadar\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\HP\Desktop\GIT\NovaMapa\ProjekatJobRadar\JobRadar\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-06-04T09:50:01.018</Modified>
+      <Modified>2016-06-05T18:07:48.410</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HP\Desktop\GIT\So far So good\ProjekatJobRadar\JobRadar\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\HP\Desktop\GIT\NovaMapa\ProjekatJobRadar\JobRadar\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-06-04T09:50:01.019</Modified>
+      <Modified>2016-06-05T18:07:48.411</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HP\Desktop\GIT\So far So good\ProjekatJobRadar\JobRadar\Assets\nekareklama1.jpg">
+    <AppxPackagedFile Include="C:\Users\HP\Desktop\GIT\NovaMapa\ProjekatJobRadar\JobRadar\Assets\nekareklama1.jpg">
       <PackagePath>Assets\nekareklama1.jpg</PackagePath>
-      <Modified>2016-06-04T09:50:01.025</Modified>
+      <Modified>2016-06-05T18:07:48.415</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HP\Desktop\GIT\So far So good\ProjekatJobRadar\JobRadar\Assets\nekareklama2.jpg">
+    <AppxPackagedFile Include="C:\Users\HP\Desktop\GIT\NovaMapa\ProjekatJobRadar\JobRadar\Assets\nekareklama2.jpg">
       <PackagePath>Assets\nekareklama2.jpg</PackagePath>
-      <Modified>2016-06-04T09:50:01.027</Modified>
+      <Modified>2016-06-05T18:07:48.416</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HP\Desktop\GIT\So far So good\ProjekatJobRadar\JobRadar\Assets\nekareklama3.jpg">
+    <AppxPackagedFile Include="C:\Users\HP\Desktop\GIT\NovaMapa\ProjekatJobRadar\JobRadar\Assets\nekareklama3.jpg">
       <PackagePath>Assets\nekareklama3.jpg</PackagePath>
-      <Modified>2016-06-04T09:50:01.030</Modified>
+      <Modified>2016-06-05T18:07:48.418</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HP\Desktop\GIT\So far So good\ProjekatJobRadar\JobRadar\Assets\SlikaJobRadar.jpg">
+    <AppxPackagedFile Include="C:\Users\HP\Desktop\GIT\NovaMapa\ProjekatJobRadar\JobRadar\Assets\SlikaJobRadar.jpg">
       <PackagePath>Assets\SlikaJobRadar.jpg</PackagePath>
-      <Modified>2016-06-04T09:50:00.942</Modified>
+      <Modified>2016-06-05T18:07:48.404</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HP\Desktop\GIT\So far So good\ProjekatJobRadar\JobRadar\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\HP\Desktop\GIT\NovaMapa\ProjekatJobRadar\JobRadar\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2016-06-04T09:50:01.294</Modified>
+      <Modified>2016-06-05T18:07:48.489</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HP\.nuget\packages\EntityFramework.Commands\7.0.0-beta6\lib\net45\EntityFramework.Commands.xml">
       <PackagePath>EntityFramework.Commands.xml</PackagePath>
@@ -592,21 +592,21 @@
       <PackagePath>EntityFramework.Commands.dll</PackagePath>
       <Modified>2016-04-24T13:49:04.566</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HP\Desktop\GIT\So far So good\ProjekatJobRadar\JobRadar\bin\x86\Debug\JobRadar.xr.xml">
+    <AppxPackagedFile Include="C:\Users\HP\Desktop\GIT\NovaMapa\ProjekatJobRadar\JobRadar\bin\x86\Debug\JobRadar.xr.xml">
       <PackagePath>JobRadar.xr.xml</PackagePath>
-      <Modified>2016-06-05T15:31:43.561</Modified>
+      <Modified>2016-06-05T18:14:00.056</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2016-05-19T19:30:23.924</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HP\Desktop\GIT\So far So good\ProjekatJobRadar\JobRadar\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\HP\Desktop\GIT\NovaMapa\ProjekatJobRadar\JobRadar\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2016-06-05T15:31:45.756</Modified>
+      <Modified>2016-06-05T18:14:11.099</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\HP\Desktop\GIT\So far So good\ProjekatJobRadar\JobRadar\bin\x86\Debug\Core\JobRadar.exe">
+    <AppxPackagedFile Include="C:\Users\HP\Desktop\GIT\NovaMapa\ProjekatJobRadar\JobRadar\bin\x86\Debug\Core\JobRadar.exe">
       <PackagePath>JobRadar.exe</PackagePath>
-      <Modified>2016-06-05T15:34:58.816</Modified>
+      <Modified>2016-06-05T18:14:12.166</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

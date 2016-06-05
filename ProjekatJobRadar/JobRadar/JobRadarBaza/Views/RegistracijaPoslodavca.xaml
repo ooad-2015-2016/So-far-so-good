@@ -20,23 +20,23 @@
             </TextBlock.Foreground></TextBlock>
         <StackPanel>
             <ProgressBar Margin="0,100,0,0" VerticalAlignment="Top" Value="100" Background="#33FFFAFA" Foreground="#FFC17922"></ProgressBar>
-            
-            <TextBlock Text="Firm name:" HorizontalAlignment="Center" Margin="0,30,0,0" Foreground="#FFFBFBFB"/>
-            <TextBox Width="200" Name="txtFirmName" Margin="0,5,0,0" ></TextBox>
 
-            
-            
+            <TextBlock Text="Firm name:" HorizontalAlignment="Center" Margin="0,30,0,0" Foreground="#FFFBFBFB"/>
+            <TextBox Width="200" Name="txtFirmName" Text="{Binding Ime, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Margin="0,5,0,0" TextChanged="txtFirmName_TextChanged" ></TextBox>
+
+
+
             <TextBlock Text="Location:" HorizontalAlignment="Center" Foreground="#FFFBFBFB"></TextBlock>
-            <TextBox Width="200" Name="txtLocation" Margin="0,5,0,0"></TextBox>
+            <TextBox Width="200" Name="txtLocation"  Margin="0,5,0,0"></TextBox>
             <TextBlock Text="Username:" HorizontalAlignment="Center" Margin="605,15,605,0" Foreground="#FFFBFBFB"></TextBlock>
-            <TextBox HorizontalAlignment="Center" Width="200" Margin="0,5,0,0"></TextBox>
+            <TextBox HorizontalAlignment="Center" Text="{Binding Username, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Width="200" Margin="0,5,0,0" TextChanged="TextBox_TextChanged"></TextBox>
 
             <TextBlock Text="Password:" HorizontalAlignment="Center" Margin="0,5,0,0" Foreground="#FFFBFBFB"></TextBlock>
-            <PasswordBox Name="txtPassword" Width="200"></PasswordBox>
+            <PasswordBox Name="txtPassword" Password="{Binding Password, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Width="200"></PasswordBox>
 
             <TextBlock Text="Confirm password:" HorizontalAlignment="Center" Margin="0,5,0,0" Foreground="#FFFBFBFB"></TextBlock>
-            <PasswordBox Name="txtPasswordConfirm" HorizontalAlignment="Center" Margin="0,5,0,0" Width="200"></PasswordBox>
-            <Button Click="btnRegisterPoslodavac_Click" Name="btnRegisterPoslodavac" FontSize="20" Width="100" HorizontalAlignment="Center" Margin="0,25,0,0" Foreground="#FFF3F3F3">
+            <PasswordBox Name="txtPasswordConfirm" Password="{Binding PasswordConfirm, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" HorizontalAlignment="Center" Margin="0,5,0,0" Width="200"></PasswordBox>
+            <Button Click="btnRegisterPoslodavac_Click" Command="{Binding Dodaj}" Name="btnRegisterPoslodavac" FontSize="20" Width="100" HorizontalAlignment="Center" Margin="0,25,0,0" Foreground="#FFF3F3F3">
                 <Button.Background>
                     <SolidColorBrush Color="#FFC17922"/>
                 </Button.Background> Register
