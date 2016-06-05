@@ -3049,3 +3049,8 @@ C:\Users\HP\Desktop\GIT\So far So good\ProjekatJobRadar\JobRadar\obj\x86\Debug\J
 C:\Users\HP\Desktop\GIT\So far So good\ProjekatJobRadar\JobRadar\obj\x86\Debug\JobRadarBaza\Views\HomePage.xbf
 C:\Users\HP\Desktop\GIT\So far So good\ProjekatJobRadar\JobRadar\obj\x86\Debug\JobRadarBaza\Views\PregledKonkursa.xbf
 C:\Users\HP\Desktop\GIT\So far So good\ProjekatJobRadar\JobRadar\obj\x86\Debug\JobRadarBaza\Views\UnosKonkursa.xbf
+C:\Users\HP\Desktop\GIT\So far So good\ProjekatJobRadar\JobRadar\bin\x86\Debug\JobRadarBaza\Views\Help.xbf
+C:\Users\HP\Desktop\GIT\So far So good\ProjekatJobRadar\JobRadar\obj\x86\Debug\JobRadarBaza\Views\Help.g.i.cs
+C:\Users\HP\Desktop\GIT\So far So good\ProjekatJobRadar\JobRadar\obj\x86\Debug\JobRadarBaza\Views\Help.g.cs
+C:\Users\HP\Desktop\GIT\So far So good\ProjekatJobRadar\JobRadar\obj\x86\Debug\JobRadarBaza\Views\Help.xaml
+C:\Users\HP\Desktop\GIT\So far So good\ProjekatJobRadar\JobRadar\obj\x86\Debug\JobRadarBaza\Views\Help.xbf

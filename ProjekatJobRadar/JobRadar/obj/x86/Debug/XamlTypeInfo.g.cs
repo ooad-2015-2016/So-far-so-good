@@ -132,57 +132,59 @@ namespace JobRadar.JobRadar_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[24];
+            _typeNameTable = new string[25];
             _typeNameTable[0] = "Windows.UI.Color";
             _typeNameTable[1] = "System.ValueType";
             _typeNameTable[2] = "Object";
             _typeNameTable[3] = "Byte";
-            _typeNameTable[4] = "JobRadar.HomePage";
+            _typeNameTable[4] = "JobRadar.Help";
             _typeNameTable[5] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[6] = "Windows.UI.Xaml.Controls.UserControl";
-            _typeNameTable[7] = "System.Collections.ObjectModel.ObservableCollection`1<JobRadar.JobRadarBaza.Models.Konkurs>";
-            _typeNameTable[8] = "System.Collections.ObjectModel.Collection`1<JobRadar.JobRadarBaza.Models.Konkurs>";
-            _typeNameTable[9] = "JobRadar.JobRadarBaza.Models.Konkurs";
-            _typeNameTable[10] = "Int32";
-            _typeNameTable[11] = "JobRadar.LogInForma";
-            _typeNameTable[12] = "System.Windows.Input.ICommand";
-            _typeNameTable[13] = "JobRadar.Pocetna";
-            _typeNameTable[14] = "JobRadar.PocetnaRegistracija";
-            _typeNameTable[15] = "JobRadar.PregledKonkursa";
-            _typeNameTable[16] = "JobRadar.ProfilPoslodavca";
-            _typeNameTable[17] = "JobRadar.Registracija2Forma";
-            _typeNameTable[18] = "JobRadar.RegistracijaForma";
-            _typeNameTable[19] = "JobRadar.ProfilNezaposlenog";
-            _typeNameTable[20] = "JobRadar.Registracija3Forma";
-            _typeNameTable[21] = "JobRadar.RegistracijaPoslodavca";
-            _typeNameTable[22] = "JobRadar.UnosKonkursa";
-            _typeNameTable[23] = "JobRadar.MainPage";
+            _typeNameTable[7] = "JobRadar.HomePage";
+            _typeNameTable[8] = "System.Collections.ObjectModel.ObservableCollection`1<JobRadar.JobRadarBaza.Models.Konkurs>";
+            _typeNameTable[9] = "System.Collections.ObjectModel.Collection`1<JobRadar.JobRadarBaza.Models.Konkurs>";
+            _typeNameTable[10] = "JobRadar.JobRadarBaza.Models.Konkurs";
+            _typeNameTable[11] = "Int32";
+            _typeNameTable[12] = "JobRadar.LogInForma";
+            _typeNameTable[13] = "System.Windows.Input.ICommand";
+            _typeNameTable[14] = "JobRadar.Pocetna";
+            _typeNameTable[15] = "JobRadar.PocetnaRegistracija";
+            _typeNameTable[16] = "JobRadar.PregledKonkursa";
+            _typeNameTable[17] = "JobRadar.ProfilPoslodavca";
+            _typeNameTable[18] = "JobRadar.Registracija2Forma";
+            _typeNameTable[19] = "JobRadar.RegistracijaForma";
+            _typeNameTable[20] = "JobRadar.ProfilNezaposlenog";
+            _typeNameTable[21] = "JobRadar.Registracija3Forma";
+            _typeNameTable[22] = "JobRadar.RegistracijaPoslodavca";
+            _typeNameTable[23] = "JobRadar.UnosKonkursa";
+            _typeNameTable[24] = "JobRadar.MainPage";
 
-            _typeTable = new global::System.Type[24];
+            _typeTable = new global::System.Type[25];
             _typeTable[0] = typeof(global::Windows.UI.Color);
             _typeTable[1] = typeof(global::System.ValueType);
             _typeTable[2] = typeof(global::System.Object);
             _typeTable[3] = typeof(global::System.Byte);
-            _typeTable[4] = typeof(global::JobRadar.HomePage);
+            _typeTable[4] = typeof(global::JobRadar.Help);
             _typeTable[5] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[6] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
-            _typeTable[7] = typeof(global::System.Collections.ObjectModel.ObservableCollection<global::JobRadar.JobRadarBaza.Models.Konkurs>);
-            _typeTable[8] = typeof(global::System.Collections.ObjectModel.Collection<global::JobRadar.JobRadarBaza.Models.Konkurs>);
-            _typeTable[9] = typeof(global::JobRadar.JobRadarBaza.Models.Konkurs);
-            _typeTable[10] = typeof(global::System.Int32);
-            _typeTable[11] = typeof(global::JobRadar.LogInForma);
-            _typeTable[12] = typeof(global::System.Windows.Input.ICommand);
-            _typeTable[13] = typeof(global::JobRadar.Pocetna);
-            _typeTable[14] = typeof(global::JobRadar.PocetnaRegistracija);
-            _typeTable[15] = typeof(global::JobRadar.PregledKonkursa);
-            _typeTable[16] = typeof(global::JobRadar.ProfilPoslodavca);
-            _typeTable[17] = typeof(global::JobRadar.Registracija2Forma);
-            _typeTable[18] = typeof(global::JobRadar.RegistracijaForma);
-            _typeTable[19] = typeof(global::JobRadar.ProfilNezaposlenog);
-            _typeTable[20] = typeof(global::JobRadar.Registracija3Forma);
-            _typeTable[21] = typeof(global::JobRadar.RegistracijaPoslodavca);
-            _typeTable[22] = typeof(global::JobRadar.UnosKonkursa);
-            _typeTable[23] = typeof(global::JobRadar.MainPage);
+            _typeTable[7] = typeof(global::JobRadar.HomePage);
+            _typeTable[8] = typeof(global::System.Collections.ObjectModel.ObservableCollection<global::JobRadar.JobRadarBaza.Models.Konkurs>);
+            _typeTable[9] = typeof(global::System.Collections.ObjectModel.Collection<global::JobRadar.JobRadarBaza.Models.Konkurs>);
+            _typeTable[10] = typeof(global::JobRadar.JobRadarBaza.Models.Konkurs);
+            _typeTable[11] = typeof(global::System.Int32);
+            _typeTable[12] = typeof(global::JobRadar.LogInForma);
+            _typeTable[13] = typeof(global::System.Windows.Input.ICommand);
+            _typeTable[14] = typeof(global::JobRadar.Pocetna);
+            _typeTable[15] = typeof(global::JobRadar.PocetnaRegistracija);
+            _typeTable[16] = typeof(global::JobRadar.PregledKonkursa);
+            _typeTable[17] = typeof(global::JobRadar.ProfilPoslodavca);
+            _typeTable[18] = typeof(global::JobRadar.Registracija2Forma);
+            _typeTable[19] = typeof(global::JobRadar.RegistracijaForma);
+            _typeTable[20] = typeof(global::JobRadar.ProfilNezaposlenog);
+            _typeTable[21] = typeof(global::JobRadar.Registracija3Forma);
+            _typeTable[22] = typeof(global::JobRadar.RegistracijaPoslodavca);
+            _typeTable[23] = typeof(global::JobRadar.UnosKonkursa);
+            _typeTable[24] = typeof(global::JobRadar.MainPage);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -217,28 +219,29 @@ namespace JobRadar.JobRadar_XamlTypeInfo
             return -1;
         }
 
-        private object Activate_4_HomePage() { return new global::JobRadar.HomePage(); }
-        private object Activate_7_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::JobRadar.JobRadarBaza.Models.Konkurs>(); }
-        private object Activate_8_Collection() { return new global::System.Collections.ObjectModel.Collection<global::JobRadar.JobRadarBaza.Models.Konkurs>(); }
-        private object Activate_11_LogInForma() { return new global::JobRadar.LogInForma(); }
-        private object Activate_13_Pocetna() { return new global::JobRadar.Pocetna(); }
-        private object Activate_14_PocetnaRegistracija() { return new global::JobRadar.PocetnaRegistracija(); }
-        private object Activate_15_PregledKonkursa() { return new global::JobRadar.PregledKonkursa(); }
-        private object Activate_16_ProfilPoslodavca() { return new global::JobRadar.ProfilPoslodavca(); }
-        private object Activate_17_Registracija2Forma() { return new global::JobRadar.Registracija2Forma(); }
-        private object Activate_18_RegistracijaForma() { return new global::JobRadar.RegistracijaForma(); }
-        private object Activate_19_ProfilNezaposlenog() { return new global::JobRadar.ProfilNezaposlenog(); }
-        private object Activate_20_Registracija3Forma() { return new global::JobRadar.Registracija3Forma(); }
-        private object Activate_21_RegistracijaPoslodavca() { return new global::JobRadar.RegistracijaPoslodavca(); }
-        private object Activate_22_UnosKonkursa() { return new global::JobRadar.UnosKonkursa(); }
-        private object Activate_23_MainPage() { return new global::JobRadar.MainPage(); }
-        private void VectorAdd_7_ObservableCollection(object instance, object item)
+        private object Activate_4_Help() { return new global::JobRadar.Help(); }
+        private object Activate_7_HomePage() { return new global::JobRadar.HomePage(); }
+        private object Activate_8_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::JobRadar.JobRadarBaza.Models.Konkurs>(); }
+        private object Activate_9_Collection() { return new global::System.Collections.ObjectModel.Collection<global::JobRadar.JobRadarBaza.Models.Konkurs>(); }
+        private object Activate_12_LogInForma() { return new global::JobRadar.LogInForma(); }
+        private object Activate_14_Pocetna() { return new global::JobRadar.Pocetna(); }
+        private object Activate_15_PocetnaRegistracija() { return new global::JobRadar.PocetnaRegistracija(); }
+        private object Activate_16_PregledKonkursa() { return new global::JobRadar.PregledKonkursa(); }
+        private object Activate_17_ProfilPoslodavca() { return new global::JobRadar.ProfilPoslodavca(); }
+        private object Activate_18_Registracija2Forma() { return new global::JobRadar.Registracija2Forma(); }
+        private object Activate_19_RegistracijaForma() { return new global::JobRadar.RegistracijaForma(); }
+        private object Activate_20_ProfilNezaposlenog() { return new global::JobRadar.ProfilNezaposlenog(); }
+        private object Activate_21_Registracija3Forma() { return new global::JobRadar.Registracija3Forma(); }
+        private object Activate_22_RegistracijaPoslodavca() { return new global::JobRadar.RegistracijaPoslodavca(); }
+        private object Activate_23_UnosKonkursa() { return new global::JobRadar.UnosKonkursa(); }
+        private object Activate_24_MainPage() { return new global::JobRadar.MainPage(); }
+        private void VectorAdd_8_ObservableCollection(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::JobRadar.JobRadarBaza.Models.Konkurs>)instance;
             var newItem = (global::JobRadar.JobRadarBaza.Models.Konkurs)item;
             collection.Add(newItem);
         }
-        private void VectorAdd_8_Collection(object instance, object item)
+        private void VectorAdd_9_Collection(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::JobRadar.JobRadarBaza.Models.Konkurs>)instance;
             var newItem = (global::JobRadar.JobRadarBaza.Models.Konkurs)item;
@@ -279,10 +282,9 @@ namespace JobRadar.JobRadar_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 4:   //  JobRadar.HomePage
+            case 4:   //  JobRadar.Help
                 userType = new global::JobRadar.JobRadar_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_4_HomePage;
-                userType.AddMemberName("Konkursi");
+                userType.Activator = Activate_4_Help;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
@@ -295,118 +297,126 @@ namespace JobRadar.JobRadar_XamlTypeInfo
                 xamlType = new global::JobRadar.JobRadar_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 7:   //  System.Collections.ObjectModel.ObservableCollection`1<JobRadar.JobRadarBaza.Models.Konkurs>
+            case 7:   //  JobRadar.HomePage
+                userType = new global::JobRadar.JobRadar_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_7_HomePage;
+                userType.AddMemberName("Konkursi");
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 8:   //  System.Collections.ObjectModel.ObservableCollection`1<JobRadar.JobRadarBaza.Models.Konkurs>
                 userType = new global::JobRadar.JobRadar_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Collections.ObjectModel.Collection`1<JobRadar.JobRadarBaza.Models.Konkurs>"));
-                userType.CollectionAdd = VectorAdd_7_ObservableCollection;
+                userType.CollectionAdd = VectorAdd_8_ObservableCollection;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 8:   //  System.Collections.ObjectModel.Collection`1<JobRadar.JobRadarBaza.Models.Konkurs>
+            case 9:   //  System.Collections.ObjectModel.Collection`1<JobRadar.JobRadarBaza.Models.Konkurs>
                 userType = new global::JobRadar.JobRadar_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_8_Collection;
-                userType.CollectionAdd = VectorAdd_8_Collection;
+                userType.Activator = Activate_9_Collection;
+                userType.CollectionAdd = VectorAdd_9_Collection;
                 xamlType = userType;
                 break;
 
-            case 9:   //  JobRadar.JobRadarBaza.Models.Konkurs
+            case 10:   //  JobRadar.JobRadarBaza.Models.Konkurs
                 userType = new global::JobRadar.JobRadar_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
                 userType.AddMemberName("LokacijaId");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 10:   //  Int32
+            case 11:   //  Int32
                 xamlType = new global::JobRadar.JobRadar_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 11:   //  JobRadar.LogInForma
+            case 12:   //  JobRadar.LogInForma
                 userType = new global::JobRadar.JobRadar_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_11_LogInForma;
+                userType.Activator = Activate_12_LogInForma;
                 userType.AddMemberName("LoginKorisnik");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 12:   //  System.Windows.Input.ICommand
+            case 13:   //  System.Windows.Input.ICommand
                 userType = new global::JobRadar.JobRadar_XamlTypeInfo.XamlUserType(this, typeName, type, null);
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 13:   //  JobRadar.Pocetna
+            case 14:   //  JobRadar.Pocetna
                 userType = new global::JobRadar.JobRadar_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_13_Pocetna;
+                userType.Activator = Activate_14_Pocetna;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 14:   //  JobRadar.PocetnaRegistracija
+            case 15:   //  JobRadar.PocetnaRegistracija
                 userType = new global::JobRadar.JobRadar_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_14_PocetnaRegistracija;
+                userType.Activator = Activate_15_PocetnaRegistracija;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 15:   //  JobRadar.PregledKonkursa
+            case 16:   //  JobRadar.PregledKonkursa
                 userType = new global::JobRadar.JobRadar_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_15_PregledKonkursa;
+                userType.Activator = Activate_16_PregledKonkursa;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 16:   //  JobRadar.ProfilPoslodavca
+            case 17:   //  JobRadar.ProfilPoslodavca
                 userType = new global::JobRadar.JobRadar_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_16_ProfilPoslodavca;
+                userType.Activator = Activate_17_ProfilPoslodavca;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 17:   //  JobRadar.Registracija2Forma
+            case 18:   //  JobRadar.Registracija2Forma
                 userType = new global::JobRadar.JobRadar_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_17_Registracija2Forma;
+                userType.Activator = Activate_18_Registracija2Forma;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 18:   //  JobRadar.RegistracijaForma
+            case 19:   //  JobRadar.RegistracijaForma
                 userType = new global::JobRadar.JobRadar_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_18_RegistracijaForma;
+                userType.Activator = Activate_19_RegistracijaForma;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 19:   //  JobRadar.ProfilNezaposlenog
+            case 20:   //  JobRadar.ProfilNezaposlenog
                 userType = new global::JobRadar.JobRadar_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_19_ProfilNezaposlenog;
+                userType.Activator = Activate_20_ProfilNezaposlenog;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 20:   //  JobRadar.Registracija3Forma
+            case 21:   //  JobRadar.Registracija3Forma
                 userType = new global::JobRadar.JobRadar_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_20_Registracija3Forma;
+                userType.Activator = Activate_21_Registracija3Forma;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 21:   //  JobRadar.RegistracijaPoslodavca
+            case 22:   //  JobRadar.RegistracijaPoslodavca
                 userType = new global::JobRadar.JobRadar_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_21_RegistracijaPoslodavca;
+                userType.Activator = Activate_22_RegistracijaPoslodavca;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 22:   //  JobRadar.UnosKonkursa
+            case 23:   //  JobRadar.UnosKonkursa
                 userType = new global::JobRadar.JobRadar_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_22_UnosKonkursa;
+                userType.Activator = Activate_23_UnosKonkursa;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 23:   //  JobRadar.MainPage
+            case 24:   //  JobRadar.MainPage
                 userType = new global::JobRadar.JobRadar_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_23_MainPage;
+                userType.Activator = Activate_24_MainPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;

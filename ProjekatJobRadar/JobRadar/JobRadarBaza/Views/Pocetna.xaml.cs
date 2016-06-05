@@ -38,5 +38,16 @@ namespace JobRadar
         {
             this.Frame.Navigate(typeof(PocetnaRegistracija));
         }
+
+        private void appBarButton_Click(object sender, Windows.UI.Xaml.RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(Help));
+        }
+
+        private void AppBarButton_Click_1(object sender, Windows.UI.Xaml.RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(HomePage));
+
+        }
     }
 }

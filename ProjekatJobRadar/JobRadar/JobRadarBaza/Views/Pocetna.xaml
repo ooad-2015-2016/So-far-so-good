@@ -40,11 +40,12 @@
             Margin="0,2,-84,-48"  FontSize="100" />
             </AppBarButton.Icon>
         </AppBarButton>
-        <AppBarButton Label="Home" Margin="914,-4,0,0" Height="77" Width="87">
+        <AppBarButton Label="Home" Margin="914,-4,0,0" Height="77" Width="87" Click="AppBarButton_Click_1">
             <AppBarButton.Icon>
                 <FontIcon FontFamily="ms-appx:///modernuiicons.ttf#Modern-UI-Icons---Social"
             Margin="0,2,-84,-48"  FontSize="100" />
             </AppBarButton.Icon>
         </AppBarButton>
+        <AppBarButton x:Name="appBarButton" HorizontalAlignment="Left" Height="45" Icon="Help"  Margin="32,12,0,0" VerticalAlignment="Top" Width="50" Click="appBarButton_Click"/>
     </Grid>
 </Page>
