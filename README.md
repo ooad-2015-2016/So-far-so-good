@@ -89,3 +89,17 @@ Na Vama je samo da kreirate profil, date nam potrebne informacije a zatim saceka
 3. **Registrovani poslodavac** - registrovani poslodavac je osoba koja stoji ispred svoje firme i raspisuje konkurs za slobodno radno mjesto; ona ima privilegije gledanja osobnih podataka i dokumenata, koje su poslali registrovani korisnici koji traže posao zainteresovani za njihov raspisani konkurs, te na osnovu istih poslodavac može pozvati na intervju korisnike za koje smatra da posjeduju adekvatne vještine i znanje
 4. **Administrator sistema** - administrator sistema je osoba koja ima odobrene privilegije za pristup podacima registovanih korisnika; njegova glavna uloga je nadgledanje sistema i ažuriranje u slučaju prijava na lažne konkurse, lažne profile itd.
 5. **Sistem JobRadar** - sistem JobRadar je zadužen za validaciju i procesiranje zahtijeva koje ostali akteri šalju (npr. zahtjev za komunikaciju, validacija korisničkog imena i šifre prilikom prijave, obrada zahtjeva za plaćanje oglasnog prostora, itd.)
+
+##Help
+
+Koristi se baza MSQL, local.
+Eksterni uredjaj je kamera. 
+ - realizirana je u klasi CameraHelper (https://github.com/ooad-2015-2016/So-far-so-good/blob/master/ProjekatJobRadar/JobRadar/JobRadarBaza/Models/CameraHelper.cs)  - poziva se u klasi KorisnikViewModel (https://github.com/ooad-2015-2016/So-far-so-good/blob/master/ProjekatJobRadar/JobRadar/JobRadarBaza/ViewModels/KorisnikViewModel.cs)
+Validacija je ispostovana u formama:
+ - LogInForma (https://github.com/ooad-2015-2016/So-far-so-good/blob/master/ProjekatJobRadar/JobRadar/JobRadarBaza/Views/LogInForma.xaml)
+ - RegistracijaPoslodavca (https://github.com/ooad-2015-2016/So-far-so-good/blob/master/ProjekatJobRadar/JobRadar/JobRadarBaza/Views/RegistracijaPoslodavca.xaml)
+Prilagodjavanje Windows Phone:
+ - provjera za prednju i zadnju kameru unutar CameraHelper (https://github.com/ooad-2015-2016/So-far-so-good/blob/master/ProjekatJobRadar/JobRadar/JobRadarBaza/Models/CameraHelper.cs)
+Web servis:
+Projekat : https://github.com/ooad-2015-2016/So-far-so/good/tree/master/ProjekatJobRadar/JobRadarWeb
+
