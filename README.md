@@ -98,8 +98,8 @@ Eksterni uredjaj je kamera.
 Validacija je ispostovana u formama:
  - LogInForma (https://github.com/ooad-2015-2016/So-far-so-good/blob/master/ProjekatJobRadar/JobRadar/JobRadarBaza/Views/LogInForma.xaml)
  - RegistracijaPoslodavca (https://github.com/ooad-2015-2016/So-far-so-good/blob/master/ProjekatJobRadar/JobRadar/JobRadarBaza/Views/RegistracijaPoslodavca.xaml)
+-  RegistracijaForma (https://github.com/ooad-2015-2016/So-far-so-good/blob/master/ProjekatJobRadar/JobRadar/JobRadarBaza/Views/RegistracijaForma.xaml)
 Prilagodjavanje Windows Phone:
  - provjera za prednju i zadnju kameru unutar CameraHelper (https://github.com/ooad-2015-2016/So-far-so-good/blob/master/ProjekatJobRadar/JobRadar/JobRadarBaza/Models/CameraHelper.cs)
 Web servis:
 Projekat : https://github.com/ooad-2015-2016/So-far-so/good/tree/master/ProjekatJobRadar/JobRadarWeb
-
